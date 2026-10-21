@@ -1,0 +1,31 @@
+# Pattern body for skin-tight stretch tops: sion_female_default.yaml with around-the-body sizes, and front/back length to the waist 5% shorter 10% smaller
+# (bust, underbust, waist, hips, back_width, waist_back_width, hip_back_width x 0.9; waist_line, waist_over_bust_line x 0.95).
+# Negative ease: the cloth is cut smaller than the body and stretches on, like a real stretch top.
+# CLAUDE.md says no negative ease; the owner asked to test it for the skin-tight tank (2026-10-13).
+body:
+  arm_length: 43.5
+  arm_pose_angle: 1.41
+  armscye_depth: 9.64
+  back_width: 23.89
+  bum_points: 10.17
+  bust: 59.99
+  bust_line: 23.6
+  bust_points: 9.39
+  crotch_hip_diff: 4.0
+  head_l: 26.81
+  height: 163.85
+  hip_back_width: 34.63
+  hip_inclination: 15.77
+  hips: 66.37
+  hips_line: 19.25
+  leg_circ: 42.51
+  neck_w: 8.84
+  shoulder_incl: 19.56
+  shoulder_w: 21.65
+  underbust: 46.06
+  vert_bust_line: 16.8
+  waist: 44.41
+  waist_back_width: 21.05
+  waist_line: 27.21
+  waist_over_bust_line: 33.57
+  wrist: 11.85

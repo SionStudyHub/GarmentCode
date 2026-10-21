@@ -1,0 +1,29 @@
+# Measured from sion-avatar male-catalog.vrm at the default slider shape by measure_body.py.
+# Levels (cm above floor): nape 144.2, collarbone_end 136.7, armpit 125.7, bust 121.0, underbust 118.5, waist 109.4, hips 85.7, crotch 81.9
+body:
+  arm_length: 44.89
+  arm_pose_angle: -0.0
+  armscye_depth: 10.96
+  back_width: 36.72
+  bum_points: 15.02
+  bust: 74.21
+  bust_line: 22.33
+  bust_points: 15.9
+  crotch_hip_diff: 3.75
+  head_l: 22.36
+  height: 166.58
+  hip_back_width: 38.81
+  hip_inclination: 8.89
+  hips: 79.74
+  hips_line: 23.75
+  leg_circ: 47.89
+  neck_w: 11.22
+  shoulder_incl: 29.09
+  shoulder_w: 28.95
+  underbust: 71.03
+  vert_bust_line: 23.19
+  waist: 61.56
+  waist_back_width: 29.37
+  waist_line: 35.46
+  waist_over_bust_line: 33.85
+  wrist: 15.03

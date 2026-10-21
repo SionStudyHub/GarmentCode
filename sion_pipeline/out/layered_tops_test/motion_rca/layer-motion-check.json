@@ -1,0 +1,1208 @@
+{
+  "method": "actual cross-layer triangle overlaps; zero BVH epsilon",
+  "scope": "supplied frames only; no body, visibility, thickness or continuous-time check",
+  "frames": 109,
+  "failedFrames": 96,
+  "success": false,
+  "rows": [
+    {
+      "shape": "catalog",
+      "stage": "stored",
+      "clip": null,
+      "time": 0,
+      "file": "positions-0.bin",
+      "trianglePairs": 0,
+      "byLayerPair": {
+        "inner/outer": 0
+      }
+    },
+    {
+      "shape": "default",
+      "stage": "shaped",
+      "clip": null,
+      "time": 0,
+      "file": "positions-1.bin",
+      "trianglePairs": 0,
+      "byLayerPair": {
+        "inner/outer": 0
+      }
+    },
+    {
+      "shape": "default",
+      "stage": "dressed",
+      "clip": null,
+      "time": 0,
+      "file": "positions-2.bin",
+      "trianglePairs": 0,
+      "byLayerPair": {
+        "inner/outer": 0
+      }
+    },
+    {
+      "shape": "default",
+      "stage": "shaped",
+      "clip": "A-Pose",
+      "time": 0,
+      "file": "positions-3.bin",
+      "trianglePairs": 0,
+      "byLayerPair": {
+        "inner/outer": 0
+      }
+    },
+    {
+      "shape": "default",
+      "stage": "dressed",
+      "clip": "A-Pose",
+      "time": 0,
+      "file": "positions-4.bin",
+      "trianglePairs": 0,
+      "byLayerPair": {
+        "inner/outer": 0
+      }
+    },
+    {
+      "shape": "default",
+      "stage": "shaped",
+      "clip": "Attack Command",
+      "time": 0.05416666716337204,
+      "file": "positions-5.bin",
+      "trianglePairs": 1054,
+      "byLayerPair": {
+        "inner/outer": 1054
+      }
+    },
+    {
+      "shape": "default",
+      "stage": "dressed",
+      "clip": "Attack Command",
+      "time": 0.05416666716337204,
+      "file": "positions-6.bin",
+      "trianglePairs": 1054,
+      "byLayerPair": {
+        "inner/outer": 1054
+      }
+    },
+    {
+      "shape": "default",
+      "stage": "shaped",
+      "clip": "Attack Command",
+      "time": 0.16250000149011612,
+      "file": "positions-7.bin",
+      "trianglePairs": 1083,
+      "byLayerPair": {
+        "inner/outer": 1083
+      }
+    },
+    {
+      "shape": "default",
+      "stage": "dressed",
+      "clip": "Attack Command",
+      "time": 0.16250000149011612,
+      "file": "positions-8.bin",
+      "trianglePairs": 1083,
+      "byLayerPair": {
+        "inner/outer": 1083
+      }
+    },
+    {
+      "shape": "default",
+      "stage": "shaped",
+      "clip": "Attack Command",
+      "time": 0.2708333358168602,
+      "file": "positions-9.bin",
+      "trianglePairs": 856,
+      "byLayerPair": {
+        "inner/outer": 856
+      }
+    },
+    {
+      "shape": "default",
+      "stage": "dressed",
+      "clip": "Attack Command",
+      "time": 0.2708333358168602,
+      "file": "positions-10.bin",
+      "trianglePairs": 856,
+      "byLayerPair": {
+        "inner/outer": 856
+      }
+    },
+    {
+      "shape": "default",
+      "stage": "shaped",
+      "clip": "Attack Command",
+      "time": 0.3791666701436043,
+      "file": "positions-11.bin",
+      "trianglePairs": 842,
+      "byLayerPair": {
+        "inner/outer": 842
+      }
+    },
+    {
+      "shape": "default",
+      "stage": "dressed",
+      "clip": "Attack Command",
+      "time": 0.3791666701436043,
+      "file": "positions-12.bin",
+      "trianglePairs": 842,
+      "byLayerPair": {
+        "inner/outer": 842
+      }
+    },
+    {
+      "shape": "default",
+      "stage": "shaped",
+      "clip": "Idle",
+      "time": 0.9958333373069763,
+      "file": "positions-13.bin",
+      "trianglePairs": 1151,
+      "byLayerPair": {
+        "inner/outer": 1151
+      }
+    },
+    {
+      "shape": "default",
+      "stage": "dressed",
+      "clip": "Idle",
+      "time": 0.9958333373069763,
+      "file": "positions-14.bin",
+      "trianglePairs": 1151,
+      "byLayerPair": {
+        "inner/outer": 1151
+      }
+    },
+    {
+      "shape": "default",
+      "stage": "shaped",
+      "clip": "Idle",
+      "time": 2.987500011920929,
+      "file": "positions-15.bin",
+      "trianglePairs": 1181,
+      "byLayerPair": {
+        "inner/outer": 1181
+      }
+    },
+    {
+      "shape": "default",
+      "stage": "dressed",
+      "clip": "Idle",
+      "time": 2.987500011920929,
+      "file": "positions-16.bin",
+      "trianglePairs": 1181,
+      "byLayerPair": {
+        "inner/outer": 1181
+      }
+    },
+    {
+      "shape": "default",
+      "stage": "shaped",
+      "clip": "Idle",
+      "time": 4.979166686534882,
+      "file": "positions-17.bin",
+      "trianglePairs": 880,
+      "byLayerPair": {
+        "inner/outer": 880
+      }
+    },
+    {
+      "shape": "default",
+      "stage": "dressed",
+      "clip": "Idle",
+      "time": 4.979166686534882,
+      "file": "positions-18.bin",
+      "trianglePairs": 880,
+      "byLayerPair": {
+        "inner/outer": 880
+      }
+    },
+    {
+      "shape": "default",
+      "stage": "shaped",
+      "clip": "Idle",
+      "time": 6.970833361148834,
+      "file": "positions-19.bin",
+      "trianglePairs": 1045,
+      "byLayerPair": {
+        "inner/outer": 1045
+      }
+    },
+    {
+      "shape": "default",
+      "stage": "dressed",
+      "clip": "Idle",
+      "time": 6.970833361148834,
+      "file": "positions-20.bin",
+      "trianglePairs": 1045,
+      "byLayerPair": {
+        "inner/outer": 1045
+      }
+    },
+    {
+      "shape": "default",
+      "stage": "shaped",
+      "clip": "Model Pose",
+      "time": 0.7541666626930237,
+      "file": "positions-21.bin",
+      "trianglePairs": 1627,
+      "byLayerPair": {
+        "inner/outer": 1627
+      }
+    },
+    {
+      "shape": "default",
+      "stage": "dressed",
+      "clip": "Model Pose",
+      "time": 0.7541666626930237,
+      "file": "positions-22.bin",
+      "trianglePairs": 1627,
+      "byLayerPair": {
+        "inner/outer": 1627
+      }
+    },
+    {
+      "shape": "default",
+      "stage": "shaped",
+      "clip": "Model Pose",
+      "time": 2.262499988079071,
+      "file": "positions-23.bin",
+      "trianglePairs": 1745,
+      "byLayerPair": {
+        "inner/outer": 1745
+      }
+    },
+    {
+      "shape": "default",
+      "stage": "dressed",
+      "clip": "Model Pose",
+      "time": 2.262499988079071,
+      "file": "positions-24.bin",
+      "trianglePairs": 1745,
+      "byLayerPair": {
+        "inner/outer": 1745
+      }
+    },
+    {
+      "shape": "default",
+      "stage": "shaped",
+      "clip": "Model Pose",
+      "time": 3.7708333134651184,
+      "file": "positions-25.bin",
+      "trianglePairs": 1420,
+      "byLayerPair": {
+        "inner/outer": 1420
+      }
+    },
+    {
+      "shape": "default",
+      "stage": "dressed",
+      "clip": "Model Pose",
+      "time": 3.7708333134651184,
+      "file": "positions-26.bin",
+      "trianglePairs": 1420,
+      "byLayerPair": {
+        "inner/outer": 1420
+      }
+    },
+    {
+      "shape": "default",
+      "stage": "shaped",
+      "clip": "Model Pose",
+      "time": 5.279166638851166,
+      "file": "positions-27.bin",
+      "trianglePairs": 1816,
+      "byLayerPair": {
+        "inner/outer": 1816
+      }
+    },
+    {
+      "shape": "default",
+      "stage": "dressed",
+      "clip": "Model Pose",
+      "time": 5.279166638851166,
+      "file": "positions-28.bin",
+      "trianglePairs": 1816,
+      "byLayerPair": {
+        "inner/outer": 1816
+      }
+    },
+    {
+      "shape": "default",
+      "stage": "shaped",
+      "clip": "Peace Sign",
+      "time": 1.1708333492279053,
+      "file": "positions-29.bin",
+      "trianglePairs": 1176,
+      "byLayerPair": {
+        "inner/outer": 1176
+      }
+    },
+    {
+      "shape": "default",
+      "stage": "dressed",
+      "clip": "Peace Sign",
+      "time": 1.1708333492279053,
+      "file": "positions-30.bin",
+      "trianglePairs": 1176,
+      "byLayerPair": {
+        "inner/outer": 1176
+      }
+    },
+    {
+      "shape": "default",
+      "stage": "shaped",
+      "clip": "Peace Sign",
+      "time": 3.512500047683716,
+      "file": "positions-31.bin",
+      "trianglePairs": 1142,
+      "byLayerPair": {
+        "inner/outer": 1142
+      }
+    },
+    {
+      "shape": "default",
+      "stage": "dressed",
+      "clip": "Peace Sign",
+      "time": 3.512500047683716,
+      "file": "positions-32.bin",
+      "trianglePairs": 1142,
+      "byLayerPair": {
+        "inner/outer": 1142
+      }
+    },
+    {
+      "shape": "default",
+      "stage": "shaped",
+      "clip": "Peace Sign",
+      "time": 5.854166746139526,
+      "file": "positions-33.bin",
+      "trianglePairs": 1150,
+      "byLayerPair": {
+        "inner/outer": 1150
+      }
+    },
+    {
+      "shape": "default",
+      "stage": "dressed",
+      "clip": "Peace Sign",
+      "time": 5.854166746139526,
+      "file": "positions-34.bin",
+      "trianglePairs": 1150,
+      "byLayerPair": {
+        "inner/outer": 1150
+      }
+    },
+    {
+      "shape": "default",
+      "stage": "shaped",
+      "clip": "Peace Sign",
+      "time": 8.195833444595337,
+      "file": "positions-35.bin",
+      "trianglePairs": 305,
+      "byLayerPair": {
+        "inner/outer": 305
+      }
+    },
+    {
+      "shape": "default",
+      "stage": "dressed",
+      "clip": "Peace Sign",
+      "time": 8.195833444595337,
+      "file": "positions-36.bin",
+      "trianglePairs": 305,
+      "byLayerPair": {
+        "inner/outer": 305
+      }
+    },
+    {
+      "shape": "default",
+      "stage": "shaped",
+      "clip": "Show Full Body",
+      "time": 1.1833332777023315,
+      "file": "positions-37.bin",
+      "trianglePairs": 291,
+      "byLayerPair": {
+        "inner/outer": 291
+      }
+    },
+    {
+      "shape": "default",
+      "stage": "dressed",
+      "clip": "Show Full Body",
+      "time": 1.1833332777023315,
+      "file": "positions-38.bin",
+      "trianglePairs": 291,
+      "byLayerPair": {
+        "inner/outer": 291
+      }
+    },
+    {
+      "shape": "default",
+      "stage": "shaped",
+      "clip": "Show Full Body",
+      "time": 3.5499998331069946,
+      "file": "positions-39.bin",
+      "trianglePairs": 90,
+      "byLayerPair": {
+        "inner/outer": 90
+      }
+    },
+    {
+      "shape": "default",
+      "stage": "dressed",
+      "clip": "Show Full Body",
+      "time": 3.5499998331069946,
+      "file": "positions-40.bin",
+      "trianglePairs": 90,
+      "byLayerPair": {
+        "inner/outer": 90
+      }
+    },
+    {
+      "shape": "default",
+      "stage": "shaped",
+      "clip": "Show Full Body",
+      "time": 5.916666388511658,
+      "file": "positions-41.bin",
+      "trianglePairs": 784,
+      "byLayerPair": {
+        "inner/outer": 784
+      }
+    },
+    {
+      "shape": "default",
+      "stage": "dressed",
+      "clip": "Show Full Body",
+      "time": 5.916666388511658,
+      "file": "positions-42.bin",
+      "trianglePairs": 784,
+      "byLayerPair": {
+        "inner/outer": 784
+      }
+    },
+    {
+      "shape": "default",
+      "stage": "shaped",
+      "clip": "Show Full Body",
+      "time": 8.28333294391632,
+      "file": "positions-43.bin",
+      "trianglePairs": 12,
+      "byLayerPair": {
+        "inner/outer": 12
+      }
+    },
+    {
+      "shape": "default",
+      "stage": "dressed",
+      "clip": "Show Full Body",
+      "time": 8.28333294391632,
+      "file": "positions-44.bin",
+      "trianglePairs": 12,
+      "byLayerPair": {
+        "inner/outer": 12
+      }
+    },
+    {
+      "shape": "default",
+      "stage": "shaped",
+      "clip": "Spin",
+      "time": 0.9333333373069763,
+      "file": "positions-45.bin",
+      "trianglePairs": 1305,
+      "byLayerPair": {
+        "inner/outer": 1305
+      }
+    },
+    {
+      "shape": "default",
+      "stage": "dressed",
+      "clip": "Spin",
+      "time": 0.9333333373069763,
+      "file": "positions-46.bin",
+      "trianglePairs": 1305,
+      "byLayerPair": {
+        "inner/outer": 1305
+      }
+    },
+    {
+      "shape": "default",
+      "stage": "shaped",
+      "clip": "Spin",
+      "time": 2.800000011920929,
+      "file": "positions-47.bin",
+      "trianglePairs": 120,
+      "byLayerPair": {
+        "inner/outer": 120
+      }
+    },
+    {
+      "shape": "default",
+      "stage": "dressed",
+      "clip": "Spin",
+      "time": 2.800000011920929,
+      "file": "positions-48.bin",
+      "trianglePairs": 120,
+      "byLayerPair": {
+        "inner/outer": 120
+      }
+    },
+    {
+      "shape": "default",
+      "stage": "shaped",
+      "clip": "Spin",
+      "time": 4.666666686534882,
+      "file": "positions-49.bin",
+      "trianglePairs": 1104,
+      "byLayerPair": {
+        "inner/outer": 1104
+      }
+    },
+    {
+      "shape": "default",
+      "stage": "dressed",
+      "clip": "Spin",
+      "time": 4.666666686534882,
+      "file": "positions-50.bin",
+      "trianglePairs": 1104,
+      "byLayerPair": {
+        "inner/outer": 1104
+      }
+    },
+    {
+      "shape": "default",
+      "stage": "shaped",
+      "clip": "Spin",
+      "time": 6.533333361148834,
+      "file": "positions-51.bin",
+      "trianglePairs": 1633,
+      "byLayerPair": {
+        "inner/outer": 1633
+      }
+    },
+    {
+      "shape": "default",
+      "stage": "dressed",
+      "clip": "Spin",
+      "time": 6.533333361148834,
+      "file": "positions-52.bin",
+      "trianglePairs": 1633,
+      "byLayerPair": {
+        "inner/outer": 1633
+      }
+    },
+    {
+      "shape": "default",
+      "stage": "shaped",
+      "clip": "T-Pose",
+      "time": 0,
+      "file": "positions-53.bin",
+      "trianglePairs": 0,
+      "byLayerPair": {
+        "inner/outer": 0
+      }
+    },
+    {
+      "shape": "default",
+      "stage": "dressed",
+      "clip": "T-Pose",
+      "time": 0,
+      "file": "positions-54.bin",
+      "trianglePairs": 0,
+      "byLayerPair": {
+        "inner/outer": 0
+      }
+    },
+    {
+      "shape": "chest06",
+      "stage": "shaped",
+      "clip": null,
+      "time": 0,
+      "file": "positions-55.bin",
+      "trianglePairs": 0,
+      "byLayerPair": {
+        "inner/outer": 0
+      }
+    },
+    {
+      "shape": "chest06",
+      "stage": "dressed",
+      "clip": null,
+      "time": 0,
+      "file": "positions-56.bin",
+      "trianglePairs": 0,
+      "byLayerPair": {
+        "inner/outer": 0
+      }
+    },
+    {
+      "shape": "chest06",
+      "stage": "shaped",
+      "clip": "A-Pose",
+      "time": 0,
+      "file": "positions-57.bin",
+      "trianglePairs": 0,
+      "byLayerPair": {
+        "inner/outer": 0
+      }
+    },
+    {
+      "shape": "chest06",
+      "stage": "dressed",
+      "clip": "A-Pose",
+      "time": 0,
+      "file": "positions-58.bin",
+      "trianglePairs": 0,
+      "byLayerPair": {
+        "inner/outer": 0
+      }
+    },
+    {
+      "shape": "chest06",
+      "stage": "shaped",
+      "clip": "Attack Command",
+      "time": 0.05416666716337204,
+      "file": "positions-59.bin",
+      "trianglePairs": 1079,
+      "byLayerPair": {
+        "inner/outer": 1079
+      }
+    },
+    {
+      "shape": "chest06",
+      "stage": "dressed",
+      "clip": "Attack Command",
+      "time": 0.05416666716337204,
+      "file": "positions-60.bin",
+      "trianglePairs": 1079,
+      "byLayerPair": {
+        "inner/outer": 1079
+      }
+    },
+    {
+      "shape": "chest06",
+      "stage": "shaped",
+      "clip": "Attack Command",
+      "time": 0.16250000149011612,
+      "file": "positions-61.bin",
+      "trianglePairs": 1115,
+      "byLayerPair": {
+        "inner/outer": 1115
+      }
+    },
+    {
+      "shape": "chest06",
+      "stage": "dressed",
+      "clip": "Attack Command",
+      "time": 0.16250000149011612,
+      "file": "positions-62.bin",
+      "trianglePairs": 1115,
+      "byLayerPair": {
+        "inner/outer": 1115
+      }
+    },
+    {
+      "shape": "chest06",
+      "stage": "shaped",
+      "clip": "Attack Command",
+      "time": 0.2708333358168602,
+      "file": "positions-63.bin",
+      "trianglePairs": 922,
+      "byLayerPair": {
+        "inner/outer": 922
+      }
+    },
+    {
+      "shape": "chest06",
+      "stage": "dressed",
+      "clip": "Attack Command",
+      "time": 0.2708333358168602,
+      "file": "positions-64.bin",
+      "trianglePairs": 922,
+      "byLayerPair": {
+        "inner/outer": 922
+      }
+    },
+    {
+      "shape": "chest06",
+      "stage": "shaped",
+      "clip": "Attack Command",
+      "time": 0.3791666701436043,
+      "file": "positions-65.bin",
+      "trianglePairs": 907,
+      "byLayerPair": {
+        "inner/outer": 907
+      }
+    },
+    {
+      "shape": "chest06",
+      "stage": "dressed",
+      "clip": "Attack Command",
+      "time": 0.3791666701436043,
+      "file": "positions-66.bin",
+      "trianglePairs": 907,
+      "byLayerPair": {
+        "inner/outer": 907
+      }
+    },
+    {
+      "shape": "chest06",
+      "stage": "shaped",
+      "clip": "Idle",
+      "time": 0.9958333373069763,
+      "file": "positions-67.bin",
+      "trianglePairs": 1147,
+      "byLayerPair": {
+        "inner/outer": 1147
+      }
+    },
+    {
+      "shape": "chest06",
+      "stage": "dressed",
+      "clip": "Idle",
+      "time": 0.9958333373069763,
+      "file": "positions-68.bin",
+      "trianglePairs": 1147,
+      "byLayerPair": {
+        "inner/outer": 1147
+      }
+    },
+    {
+      "shape": "chest06",
+      "stage": "shaped",
+      "clip": "Idle",
+      "time": 2.987500011920929,
+      "file": "positions-69.bin",
+      "trianglePairs": 1258,
+      "byLayerPair": {
+        "inner/outer": 1258
+      }
+    },
+    {
+      "shape": "chest06",
+      "stage": "dressed",
+      "clip": "Idle",
+      "time": 2.987500011920929,
+      "file": "positions-70.bin",
+      "trianglePairs": 1258,
+      "byLayerPair": {
+        "inner/outer": 1258
+      }
+    },
+    {
+      "shape": "chest06",
+      "stage": "shaped",
+      "clip": "Idle",
+      "time": 4.979166686534882,
+      "file": "positions-71.bin",
+      "trianglePairs": 897,
+      "byLayerPair": {
+        "inner/outer": 897
+      }
+    },
+    {
+      "shape": "chest06",
+      "stage": "dressed",
+      "clip": "Idle",
+      "time": 4.979166686534882,
+      "file": "positions-72.bin",
+      "trianglePairs": 897,
+      "byLayerPair": {
+        "inner/outer": 897
+      }
+    },
+    {
+      "shape": "chest06",
+      "stage": "shaped",
+      "clip": "Idle",
+      "time": 6.970833361148834,
+      "file": "positions-73.bin",
+      "trianglePairs": 1057,
+      "byLayerPair": {
+        "inner/outer": 1057
+      }
+    },
+    {
+      "shape": "chest06",
+      "stage": "dressed",
+      "clip": "Idle",
+      "time": 6.970833361148834,
+      "file": "positions-74.bin",
+      "trianglePairs": 1057,
+      "byLayerPair": {
+        "inner/outer": 1057
+      }
+    },
+    {
+      "shape": "chest06",
+      "stage": "shaped",
+      "clip": "Model Pose",
+      "time": 0.7541666626930237,
+      "file": "positions-75.bin",
+      "trianglePairs": 1613,
+      "byLayerPair": {
+        "inner/outer": 1613
+      }
+    },
+    {
+      "shape": "chest06",
+      "stage": "dressed",
+      "clip": "Model Pose",
+      "time": 0.7541666626930237,
+      "file": "positions-76.bin",
+      "trianglePairs": 1613,
+      "byLayerPair": {
+        "inner/outer": 1613
+      }
+    },
+    {
+      "shape": "chest06",
+      "stage": "shaped",
+      "clip": "Model Pose",
+      "time": 2.262499988079071,
+      "file": "positions-77.bin",
+      "trianglePairs": 1758,
+      "byLayerPair": {
+        "inner/outer": 1758
+      }
+    },
+    {
+      "shape": "chest06",
+      "stage": "dressed",
+      "clip": "Model Pose",
+      "time": 2.262499988079071,
+      "file": "positions-78.bin",
+      "trianglePairs": 1758,
+      "byLayerPair": {
+        "inner/outer": 1758
+      }
+    },
+    {
+      "shape": "chest06",
+      "stage": "shaped",
+      "clip": "Model Pose",
+      "time": 3.7708333134651184,
+      "file": "positions-79.bin",
+      "trianglePairs": 1461,
+      "byLayerPair": {
+        "inner/outer": 1461
+      }
+    },
+    {
+      "shape": "chest06",
+      "stage": "dressed",
+      "clip": "Model Pose",
+      "time": 3.7708333134651184,
+      "file": "positions-80.bin",
+      "trianglePairs": 1461,
+      "byLayerPair": {
+        "inner/outer": 1461
+      }
+    },
+    {
+      "shape": "chest06",
+      "stage": "shaped",
+      "clip": "Model Pose",
+      "time": 5.279166638851166,
+      "file": "positions-81.bin",
+      "trianglePairs": 1827,
+      "byLayerPair": {
+        "inner/outer": 1827
+      }
+    },
+    {
+      "shape": "chest06",
+      "stage": "dressed",
+      "clip": "Model Pose",
+      "time": 5.279166638851166,
+      "file": "positions-82.bin",
+      "trianglePairs": 1827,
+      "byLayerPair": {
+        "inner/outer": 1827
+      }
+    },
+    {
+      "shape": "chest06",
+      "stage": "shaped",
+      "clip": "Peace Sign",
+      "time": 1.1708333492279053,
+      "file": "positions-83.bin",
+      "trianglePairs": 1216,
+      "byLayerPair": {
+        "inner/outer": 1216
+      }
+    },
+    {
+      "shape": "chest06",
+      "stage": "dressed",
+      "clip": "Peace Sign",
+      "time": 1.1708333492279053,
+      "file": "positions-84.bin",
+      "trianglePairs": 1216,
+      "byLayerPair": {
+        "inner/outer": 1216
+      }
+    },
+    {
+      "shape": "chest06",
+      "stage": "shaped",
+      "clip": "Peace Sign",
+      "time": 3.512500047683716,
+      "file": "positions-85.bin",
+      "trianglePairs": 1186,
+      "byLayerPair": {
+        "inner/outer": 1186
+      }
+    },
+    {
+      "shape": "chest06",
+      "stage": "dressed",
+      "clip": "Peace Sign",
+      "time": 3.512500047683716,
+      "file": "positions-86.bin",
+      "trianglePairs": 1186,
+      "byLayerPair": {
+        "inner/outer": 1186
+      }
+    },
+    {
+      "shape": "chest06",
+      "stage": "shaped",
+      "clip": "Peace Sign",
+      "time": 5.854166746139526,
+      "file": "positions-87.bin",
+      "trianglePairs": 1174,
+      "byLayerPair": {
+        "inner/outer": 1174
+      }
+    },
+    {
+      "shape": "chest06",
+      "stage": "dressed",
+      "clip": "Peace Sign",
+      "time": 5.854166746139526,
+      "file": "positions-88.bin",
+      "trianglePairs": 1174,
+      "byLayerPair": {
+        "inner/outer": 1174
+      }
+    },
+    {
+      "shape": "chest06",
+      "stage": "shaped",
+      "clip": "Peace Sign",
+      "time": 8.195833444595337,
+      "file": "positions-89.bin",
+      "trianglePairs": 336,
+      "byLayerPair": {
+        "inner/outer": 336
+      }
+    },
+    {
+      "shape": "chest06",
+      "stage": "dressed",
+      "clip": "Peace Sign",
+      "time": 8.195833444595337,
+      "file": "positions-90.bin",
+      "trianglePairs": 336,
+      "byLayerPair": {
+        "inner/outer": 336
+      }
+    },
+    {
+      "shape": "chest06",
+      "stage": "shaped",
+      "clip": "Show Full Body",
+      "time": 1.1833332777023315,
+      "file": "positions-91.bin",
+      "trianglePairs": 313,
+      "byLayerPair": {
+        "inner/outer": 313
+      }
+    },
+    {
+      "shape": "chest06",
+      "stage": "dressed",
+      "clip": "Show Full Body",
+      "time": 1.1833332777023315,
+      "file": "positions-92.bin",
+      "trianglePairs": 313,
+      "byLayerPair": {
+        "inner/outer": 313
+      }
+    },
+    {
+      "shape": "chest06",
+      "stage": "shaped",
+      "clip": "Show Full Body",
+      "time": 3.5499998331069946,
+      "file": "positions-93.bin",
+      "trianglePairs": 88,
+      "byLayerPair": {
+        "inner/outer": 88
+      }
+    },
+    {
+      "shape": "chest06",
+      "stage": "dressed",
+      "clip": "Show Full Body",
+      "time": 3.5499998331069946,
+      "file": "positions-94.bin",
+      "trianglePairs": 88,
+      "byLayerPair": {
+        "inner/outer": 88
+      }
+    },
+    {
+      "shape": "chest06",
+      "stage": "shaped",
+      "clip": "Show Full Body",
+      "time": 5.916666388511658,
+      "file": "positions-95.bin",
+      "trianglePairs": 796,
+      "byLayerPair": {
+        "inner/outer": 796
+      }
+    },
+    {
+      "shape": "chest06",
+      "stage": "dressed",
+      "clip": "Show Full Body",
+      "time": 5.916666388511658,
+      "file": "positions-96.bin",
+      "trianglePairs": 796,
+      "byLayerPair": {
+        "inner/outer": 796
+      }
+    },
+    {
+      "shape": "chest06",
+      "stage": "shaped",
+      "clip": "Show Full Body",
+      "time": 8.28333294391632,
+      "file": "positions-97.bin",
+      "trianglePairs": 12,
+      "byLayerPair": {
+        "inner/outer": 12
+      }
+    },
+    {
+      "shape": "chest06",
+      "stage": "dressed",
+      "clip": "Show Full Body",
+      "time": 8.28333294391632,
+      "file": "positions-98.bin",
+      "trianglePairs": 12,
+      "byLayerPair": {
+        "inner/outer": 12
+      }
+    },
+    {
+      "shape": "chest06",
+      "stage": "shaped",
+      "clip": "Spin",
+      "time": 0.9333333373069763,
+      "file": "positions-99.bin",
+      "trianglePairs": 1309,
+      "byLayerPair": {
+        "inner/outer": 1309
+      }
+    },
+    {
+      "shape": "chest06",
+      "stage": "dressed",
+      "clip": "Spin",
+      "time": 0.9333333373069763,
+      "file": "positions-100.bin",
+      "trianglePairs": 1309,
+      "byLayerPair": {
+        "inner/outer": 1309
+      }
+    },
+    {
+      "shape": "chest06",
+      "stage": "shaped",
+      "clip": "Spin",
+      "time": 2.800000011920929,
+      "file": "positions-101.bin",
+      "trianglePairs": 98,
+      "byLayerPair": {
+        "inner/outer": 98
+      }
+    },
+    {
+      "shape": "chest06",
+      "stage": "dressed",
+      "clip": "Spin",
+      "time": 2.800000011920929,
+      "file": "positions-102.bin",
+      "trianglePairs": 98,
+      "byLayerPair": {
+        "inner/outer": 98
+      }
+    },
+    {
+      "shape": "chest06",
+      "stage": "shaped",
+      "clip": "Spin",
+      "time": 4.666666686534882,
+      "file": "positions-103.bin",
+      "trianglePairs": 1118,
+      "byLayerPair": {
+        "inner/outer": 1118
+      }
+    },
+    {
+      "shape": "chest06",
+      "stage": "dressed",
+      "clip": "Spin",
+      "time": 4.666666686534882,
+      "file": "positions-104.bin",
+      "trianglePairs": 1118,
+      "byLayerPair": {
+        "inner/outer": 1118
+      }
+    },
+    {
+      "shape": "chest06",
+      "stage": "shaped",
+      "clip": "Spin",
+      "time": 6.533333361148834,
+      "file": "positions-105.bin",
+      "trianglePairs": 1653,
+      "byLayerPair": {
+        "inner/outer": 1653
+      }
+    },
+    {
+      "shape": "chest06",
+      "stage": "dressed",
+      "clip": "Spin",
+      "time": 6.533333361148834,
+      "file": "positions-106.bin",
+      "trianglePairs": 1653,
+      "byLayerPair": {
+        "inner/outer": 1653
+      }
+    },
+    {
+      "shape": "chest06",
+      "stage": "shaped",
+      "clip": "T-Pose",
+      "time": 0,
+      "file": "positions-107.bin",
+      "trianglePairs": 0,
+      "byLayerPair": {
+        "inner/outer": 0
+      }
+    },
+    {
+      "shape": "chest06",
+      "stage": "dressed",
+      "clip": "T-Pose",
+      "time": 0,
+      "file": "positions-108.bin",
+      "trianglePairs": 0,
+      "byLayerPair": {
+        "inner/outer": 0
+      }
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+fabric: cotton_jersey (Cotton jersey (T-shirt knit)): {'mass': 0.15, 'tension': 155.941, 'compression': 4.6782, 'shear': 4.6782, 'bending': 72.8419, 'damping': 5.0, 'collision_distance': 0.003, 'friction': 5}
+start layout (cm): {'armpit': 121.8, 'half_width': [7.7, 13.9], 'half_depth': [5.1, 10.6], 'left_arm_R': [3.0, 10.0], 'right_arm_R': [3.0, 10.0], 'points_pushed_out': 946}
+sew frame   5  seam gap mean   1.3 mm  max   10.7 mm      1 s
+sew frame  10  seam gap mean   1.5 mm  max    9.5 mm      2 s
+sew frame  15  seam gap mean   1.8 mm  max   14.8 mm      3 s
+sew frame  20  seam gap mean   2.0 mm  max   12.2 mm      4 s
+sew frame  25  seam gap mean   2.8 mm  max   14.0 mm      5 s
+sew frame  30  seam gap mean   2.3 mm  max   14.9 mm      6 s
+sew frame  35  seam gap mean   1.4 mm  max   12.3 mm      7 s
+sew frame  40  seam gap mean   1.8 mm  max   13.9 mm      7 s
+sew frame  45  seam gap mean   1.8 mm  max   23.0 mm      8 s
+sew frame  50  seam gap mean   1.5 mm  max   10.3 mm      9 s
+sew frame  55  seam gap mean   0.3 mm  max    4.4 mm     10 s
+sew frame  60  seam gap mean   0.4 mm  max    5.1 mm     10 s
+sew frame  65  seam gap mean   0.2 mm  max    3.6 mm     11 s
+sew frame  70  seam gap mean   0.5 mm  max    5.2 mm     11 s
+sew frame  75  seam gap mean   0.3 mm  max    4.5 mm     12 s
+sew frame  80  seam gap mean   0.4 mm  max    5.3 mm     12 s
+sew frame  85  seam gap mean   0.4 mm  max    6.0 mm     13 s
+sew frame  90  seam gap mean   0.5 mm  max    6.4 mm     13 s
+sew frame  95  seam gap mean   0.4 mm  max    5.0 mm     14 s
+sew frame 100  seam gap mean   0.4 mm  max    7.6 mm     14 s
+sew frame 105  seam gap mean   0.3 mm  max    4.1 mm     15 s
+sew frame 110  seam gap mean   0.3 mm  max    3.6 mm     15 s
+sew frame 115  seam gap mean   0.4 mm  max    4.5 mm     16 s
+sew frame 120  seam gap mean   0.4 mm  max    6.6 mm     16 s
+sew frame 125  seam gap mean   0.2 mm  max    3.4 mm     17 s
+sew frame 130  seam gap mean   0.3 mm  max    3.5 mm     17 s
+sew frame 135  seam gap mean   0.4 mm  max    4.0 mm     18 s
+sew frame 140  seam gap mean   0.3 mm  max    7.2 mm     18 s
+sew frame 145  seam gap mean   0.3 mm  max    5.9 mm     19 s
+sew frame 150  seam gap mean   0.4 mm  max    8.1 mm     19 s
+sew worst seams: right_ftorso~left_ftorso 8mm @z1.13, right_ftorso~left_ftorso 8mm @z1.13, right_btorso~right_ftorso 5mm @z1.14, left_btorso~left_ftorso 4mm @z1.12, left_btorso~left_ftorso 4mm @z1.12, left_sleeve_b~left_ftorso 4mm @z1.13
+settle frame   5  seam gap mean   0.4 mm  max    6.2 mm      0 s
+settle frame  10  seam gap mean   0.3 mm  max    5.2 mm      1 s
+settle frame  15  seam gap mean   0.4 mm  max    7.7 mm      2 s
+settle frame  20  seam gap mean   0.3 mm  max    8.3 mm      2 s
+settle frame  25  seam gap mean   0.3 mm  max    7.3 mm      3 s
+settle frame  30  seam gap mean   0.3 mm  max    5.0 mm      3 s
+settle frame  35  seam gap mean   0.4 mm  max    5.2 mm      4 s
+settle frame  40  seam gap mean   0.3 mm  max    5.3 mm      4 s
+settle frame  45  seam gap mean   0.3 mm  max    3.9 mm      5 s
+settle frame  50  seam gap mean   0.5 mm  max    8.2 mm      5 s
+settle frame  55  seam gap mean   0.3 mm  max    4.4 mm      6 s
+settle frame  60  seam gap mean   0.3 mm  max    5.4 mm      7 s
+00:26.819  render           | Saved: '/Users/vaz/Desktop/antigravity_apps/GarmentCode/sion_pipeline/out/tee/tee_front.png'
+00:26.863  render           | Saved: '/Users/vaz/Desktop/antigravity_apps/GarmentCode/sion_pipeline/out/tee/tee_side.png'
+00:26.908  render           | Saved: '/Users/vaz/Desktop/antigravity_apps/GarmentCode/sion_pipeline/out/tee/tee_back.png'
+00:26.952  render           | Saved: '/Users/vaz/Desktop/antigravity_apps/GarmentCode/sion_pipeline/out/tee/tee_stretch_front.png'
+00:26.993  render           | Saved: '/Users/vaz/Desktop/antigravity_apps/GarmentCode/sion_pipeline/out/tee/tee_stretch_back.png'
+00:27.032  render           | Saved: '/Users/vaz/Desktop/antigravity_apps/GarmentCode/sion_pipeline/out/tee/tee_stretch_side.png'
+settle worst seams: right_ftorso~left_ftorso 5mm @z1.13, left_btorso~left_ftorso 3mm @z1.13, right_sleeve_f~right_ftorso 3mm @z1.13, left_sleeve_b~left_ftorso 3mm @z1.13, left_sleeve_b~left_ftorso 2mm @z1.13, right_btorso~right_sleeve_b 2mm @z1.14
+stretch vs pattern: median -0.0%  95th 6.2%  max 60.2%
+  right_btorso     stretch median  -0.1%  95th   5.0%  >15%: 30 edges  hot spots around z [1.13, 1.13, 1.14]
+  right_sleeve_b   stretch median  -0.0%  95th   0.5%  >15%: 1 edges  hot spots around z [1.13, 1.13, 1.13]
+  right_sleeve_f   stretch median  -0.0%  95th   0.8%  >15%: 1 edges  hot spots around z [1.12, 1.12, 1.12]
+  right_ftorso     stretch median  -0.0%  95th  11.9%  >15%: 85 edges  hot spots around z [1.13, 1.13, 1.14]
+  left_btorso      stretch median  -0.0%  95th   3.9%  >15%: 17 edges  hot spots around z [1.13, 1.13, 1.14]
+  left_sleeve_b    stretch median  -0.0%  95th   0.6%  >15%: 1 edges  hot spots around z [1.13, 1.13, 1.13]
+  left_sleeve_f    stretch median  -0.0%  95th   1.7%  >15%: 8 edges  hot spots around z [1.13, 1.13, 1.13]
+  left_ftorso      stretch median   0.0%  95th  12.5%  >15%: 83 edges  hot spots around z [1.13, 1.13, 1.13]
+welded: 3579 vertices, 6986 triangles
+fit: hem 96.0 cm above floor (pattern 97.6); cloth to skin median 1.7 cm, 90th 3.5 cm; 0 points inside the body
+Info: Saved as "tee_draped.blend"
+INFO Draco mesh compression is available, use library at /Applications/Blender.app/Contents/Resources/5.1/scripts/addons_core/io_scene_gltf2/libextern_draco.dylib
+21:40:00 | INFO: Starting glTF 2.0 export
+21:40:00 | INFO: Extracting primitive: tee.001
+21:40:00 | WARNING: The active Vertex Color will not be exported, as it is not used in the node tree of the material
+21:40:00 | INFO: Primitives created: 1
+21:40:00 | INFO: Finished glTF 2.0 export in 0.022063016891479492 s
+
+wrote /Users/vaz/Desktop/antigravity_apps/GarmentCode/sion_pipeline/out/tee/tee.glb
+Blender 5.1.2 (hash ec6e62d40fa9 built 2026-05-19 01:30:33)
+
+Blender quit
+/Users/vaz/Desktop/antigravity_apps/GarmentCode/sion_pipeline/drape_blender.py:293: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  m.use_nodes = True

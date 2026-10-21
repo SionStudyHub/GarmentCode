@@ -1,0 +1,54 @@
+start layout (cm): {'armpit': 124.7, 'half_width': [7.7, 14.1], 'half_depth': [5.1, 10.7], 'left_arm_R': [3.0, 6.7], 'right_arm_R': [3.0, 6.7], 'points_pushed_out': 930}
+sew frame   5  seam gap mean   2.4 mm  max   38.3 mm      0 s
+sew frame  10  seam gap mean   0.4 mm  max   12.3 mm      1 s
+sew frame  15  seam gap mean   0.4 mm  max   12.4 mm      2 s
+sew frame  20  seam gap mean   0.4 mm  max   12.0 mm      2 s
+sew frame  25  seam gap mean   0.4 mm  max   12.1 mm      3 s
+sew frame  30  seam gap mean   0.4 mm  max   12.5 mm      4 s
+sew frame  35  seam gap mean   0.4 mm  max   12.6 mm      4 s
+sew frame  40  seam gap mean   0.4 mm  max   12.6 mm      5 s
+sew frame  45  seam gap mean   0.4 mm  max   12.5 mm      5 s
+sew frame  50  seam gap mean   0.4 mm  max   12.5 mm      6 s
+sew frame  55  seam gap mean   0.4 mm  max   12.5 mm      7 s
+sew frame  60  seam gap mean   0.4 mm  max   12.5 mm      7 s
+sew frame  65  seam gap mean   0.4 mm  max   12.5 mm      8 s
+sew frame  70  seam gap mean   0.4 mm  max   12.5 mm      9 s
+sew frame  75  seam gap mean   0.4 mm  max   12.5 mm      9 s
+sew frame  80  seam gap mean   0.4 mm  max   12.5 mm     10 s
+sew frame  85  seam gap mean   0.4 mm  max   12.5 mm     11 s
+sew frame  90  seam gap mean   0.4 mm  max   12.6 mm     11 s
+sew frame  95  seam gap mean   0.4 mm  max   12.5 mm     12 s
+sew frame 100  seam gap mean   0.4 mm  max   12.6 mm     13 s
+sew frame 105  seam gap mean   0.4 mm  max   12.6 mm     13 s
+sew frame 110  seam gap mean   0.4 mm  max   12.6 mm     14 s
+sew frame 115  seam gap mean   0.4 mm  max   12.6 mm     15 s
+sew frame 120  seam gap mean   0.4 mm  max   12.5 mm     15 s
+sew frame 125  seam gap mean   0.4 mm  max   12.5 mm     16 s
+sew frame 130  seam gap mean   0.4 mm  max   12.6 mm     17 s
+sew frame 135  seam gap mean   0.4 mm  max   12.6 mm     17 s
+sew frame 140  seam gap mean   0.4 mm  max   12.6 mm     18 s
+sew frame 145  seam gap mean   0.4 mm  max   12.6 mm     19 s
+sew frame 150  seam gap mean   0.4 mm  max   12.5 mm     19 s
+sew worst seams: right_sleeve_f~right_ftorso 13mm @z1.37, right_sleeve_f~right_ftorso 3mm @z1.37, left_ftorso~left_sleeve_f 3mm @z1.35, left_ftorso~left_sleeve_f 2mm @z1.36, right_sleeve_b~right_sleeve_f 2mm @z1.27, left_btorso~left_sleeve_b 2mm @z1.28
+settle frame   5  seam gap mean   0.3 mm  max    9.3 mm      0 s
+settle frame  10  seam gap mean   0.3 mm  max    9.3 mm      1 s
+settle frame  15  seam gap mean   0.3 mm  max    9.3 mm      2 s
+settle frame  20  seam gap mean   0.3 mm  max    9.3 mm      3 s
+settle frame  25  seam gap mean   0.3 mm  max    9.2 mm      4 s
+settle frame  30  seam gap mean   0.3 mm  max    9.2 mm      4 s
+settle frame  35  seam gap mean   0.3 mm  max    9.2 mm      5 s
+settle frame  40  seam gap mean   0.3 mm  max    9.2 mm      6 s
+settle frame  45  seam gap mean   0.3 mm  max    9.3 mm      7 s
+settle frame  50  seam gap mean   0.3 mm  max    9.2 mm      7 s
+settle frame  55  seam gap mean   0.3 mm  max    9.2 mm      8 s
+settle frame  60  seam gap mean   0.3 mm  max    9.3 mm      9 s
+00:28.483  render           | Saved: '/Users/vaz/Desktop/antigravity_apps/GarmentCode/sion_pipeline/out/gc_shirt/gc_shirt_front.png'
+00:28.531  render           | Saved: '/Users/vaz/Desktop/antigravity_apps/GarmentCode/sion_pipeline/out/gc_shirt/gc_shirt_side.png'
+00:28.574  render           | Saved: '/Users/vaz/Desktop/antigravity_apps/GarmentCode/sion_pipeline/out/gc_shirt/gc_shirt_back.png'
+settle worst seams: right_sleeve_f~right_ftorso 9mm @z1.36, right_sleeve_f~right_ftorso 2mm @z1.36, right_sleeve_b~right_sleeve_f 1mm @z1.26, left_btorso~left_sleeve_b 1mm @z1.27, left_ftorso~left_sleeve_f 1mm @z1.38, right_sleeve_f~right_ftorso 1mm @z1.36
+stretch vs pattern: median 0.6%  95th 26.5%  max 160.1%
+welded: 3827 vertices, 7462 triangles
+Info: Saved as "gc_shirt_draped.blend"
+wrote /Users/vaz/Desktop/antigravity_apps/GarmentCode/sion_pipeline/out/gc_shirt/gc_shirt.glb
+Blender 5.1.2 (hash ec6e62d40fa9 built 2026-05-19 01:30:33)
+Blender quit

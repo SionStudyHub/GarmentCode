@@ -1,0 +1,91 @@
+/Users/vaz/Desktop/antigravity_apps/GarmentCode/sion_pipeline/drape_blender.py:271: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  m.use_nodes = True
+posed the arms 40 degrees below horizontal
+start layout (cm): {'armpit': 122.2, 'half_width': [7.7, 13.9], 'half_depth': [5.1, 10.6], 'left_arm_R': [3.0, 10.4], 'right_arm_R': [3.0, 10.4], 'points_pushed_out': 979}
+sew frame   5  seam gap mean  11.4 mm  max   76.8 mm      1 s
+sew frame  10  seam gap mean   1.2 mm  max   13.0 mm      2 s
+sew frame  15  seam gap mean   1.1 mm  max   14.4 mm      2 s
+sew frame  20  seam gap mean   1.1 mm  max   14.5 mm      3 s
+sew frame  25  seam gap mean   1.1 mm  max   14.3 mm      4 s
+sew frame  30  seam gap mean   1.0 mm  max   14.4 mm      5 s
+sew frame  35  seam gap mean   1.0 mm  max   14.3 mm      6 s
+sew frame  40  seam gap mean   1.0 mm  max   14.2 mm      7 s
+sew frame  45  seam gap mean   1.0 mm  max   14.5 mm      8 s
+sew frame  50  seam gap mean   1.0 mm  max   14.4 mm      9 s
+sew frame  55  seam gap mean   1.0 mm  max   14.3 mm     10 s
+sew frame  60  seam gap mean   1.0 mm  max   14.3 mm     11 s
+sew frame  65  seam gap mean   1.0 mm  max   14.4 mm     12 s
+sew frame  70  seam gap mean   1.0 mm  max   14.4 mm     13 s
+sew frame  75  seam gap mean   1.0 mm  max   14.4 mm     14 s
+sew frame  80  seam gap mean   1.0 mm  max   14.4 mm     15 s
+sew frame  85  seam gap mean   1.0 mm  max   14.5 mm     15 s
+sew frame  90  seam gap mean   1.0 mm  max   14.4 mm     16 s
+sew frame  95  seam gap mean   1.0 mm  max   14.5 mm     17 s
+sew frame 100  seam gap mean   1.0 mm  max   14.3 mm     18 s
+sew frame 105  seam gap mean   1.0 mm  max   14.4 mm     19 s
+sew frame 110  seam gap mean   1.0 mm  max   14.4 mm     20 s
+sew frame 115  seam gap mean   1.0 mm  max   14.4 mm     21 s
+sew frame 120  seam gap mean   1.0 mm  max   14.3 mm     22 s
+sew frame 125  seam gap mean   1.0 mm  max   14.2 mm     23 s
+sew frame 130  seam gap mean   1.0 mm  max   14.3 mm     24 s
+sew frame 135  seam gap mean   1.0 mm  max   14.5 mm     25 s
+sew frame 140  seam gap mean   1.0 mm  max   14.4 mm     25 s
+sew frame 145  seam gap mean   1.0 mm  max   14.4 mm     26 s
+sew frame 150  seam gap mean   1.0 mm  max   14.4 mm     27 s
+sew worst seams: right_sleeve_f~right_ftorso 14mm @z1.27, left_sleeve_f~left_ftorso 12mm @z1.28, right_sleeve_b~right_sleeve_f 11mm @z1.33, right_sleeve_f~right_ftorso 10mm @z1.30, left_sleeve_f~left_ftorso 10mm @z1.26, left_sleeve_f~left_ftorso 9mm @z1.37
+settle frame   5  seam gap mean   0.4 mm  max    6.8 mm      1 s
+settle frame  10  seam gap mean   0.4 mm  max    7.3 mm      2 s
+settle frame  15  seam gap mean   0.4 mm  max    7.3 mm      3 s
+settle frame  20  seam gap mean   0.4 mm  max    7.4 mm      4 s
+settle frame  25  seam gap mean   0.4 mm  max    7.4 mm      5 s
+settle frame  30  seam gap mean   0.4 mm  max    7.3 mm      6 s
+settle frame  35  seam gap mean   0.4 mm  max    7.2 mm      7 s
+settle frame  40  seam gap mean   0.4 mm  max    7.2 mm      8 s
+settle frame  45  seam gap mean   0.4 mm  max    7.1 mm      8 s
+settle frame  50  seam gap mean   0.4 mm  max    7.3 mm      9 s
+settle frame  55  seam gap mean   0.4 mm  max    7.4 mm     10 s
+settle frame  60  seam gap mean   0.4 mm  max    7.2 mm     11 s
+settle frame  65  seam gap mean   0.4 mm  max    7.3 mm     12 s
+settle frame  70  seam gap mean   0.4 mm  max    6.9 mm     13 s
+settle frame  75  seam gap mean   0.4 mm  max    7.1 mm     14 s
+settle frame  80  seam gap mean   0.4 mm  max    7.3 mm     15 s
+settle frame  85  seam gap mean   0.4 mm  max    7.2 mm     16 s
+settle frame  90  seam gap mean   0.4 mm  max    7.2 mm     17 s
+settle frame  95  seam gap mean   0.4 mm  max    7.2 mm     18 s
+settle frame 100  seam gap mean   0.4 mm  max    7.2 mm     19 s
+settle frame 105  seam gap mean   0.4 mm  max    7.3 mm     19 s
+settle frame 110  seam gap mean   0.4 mm  max    7.1 mm     20 s
+settle frame 115  seam gap mean   0.4 mm  max    7.1 mm     21 s
+settle frame 120  seam gap mean   0.4 mm  max    7.2 mm     22 s
+00:49.920  render           | Saved: '/Users/vaz/Desktop/antigravity_apps/GarmentCode/sion_pipeline/out/tee_sa40/tee_sa40_front.png'
+00:49.967  render           | Saved: '/Users/vaz/Desktop/antigravity_apps/GarmentCode/sion_pipeline/out/tee_sa40/tee_sa40_side.png'
+00:50.011  render           | Saved: '/Users/vaz/Desktop/antigravity_apps/GarmentCode/sion_pipeline/out/tee_sa40/tee_sa40_back.png'
+00:50.053  render           | Saved: '/Users/vaz/Desktop/antigravity_apps/GarmentCode/sion_pipeline/out/tee_sa40/tee_sa40_stretch_front.png'
+00:50.096  render           | Saved: '/Users/vaz/Desktop/antigravity_apps/GarmentCode/sion_pipeline/out/tee_sa40/tee_sa40_stretch_back.png'
+00:50.135  render           | Saved: '/Users/vaz/Desktop/antigravity_apps/GarmentCode/sion_pipeline/out/tee_sa40/tee_sa40_stretch_side.png'
+00:50.216  render           | Saved: '/Users/vaz/Desktop/antigravity_apps/GarmentCode/sion_pipeline/out/tee_sa40/tee_sa40_rest_front.png'
+settle worst seams: right_sleeve_f~right_ftorso 7mm @z1.26, left_sleeve_f~left_ftorso 7mm @z1.37, right_btorso~right_ftorso 4mm @z1.26, left_sleeve_f~left_ftorso 4mm @z1.27, right_sleeve_f~right_ftorso 3mm @z1.29, left_sleeve_f~left_ftorso 2mm @z1.34
+stretch vs pattern: median 1.8%  95th 37.3%  max 188.0%
+  right_btorso     stretch median   1.1%  95th  28.6%  >15%: 225 edges  hot spots around z [1.08, 1.28, 1.38]
+  right_sleeve_b   stretch median   3.2%  95th  52.1%  >15%: 228 edges  hot spots around z [1.25, 1.31, 1.36]
+  right_sleeve_f   stretch median   4.9%  95th  52.1%  >15%: 223 edges  hot spots around z [1.25, 1.31, 1.36]
+  right_ftorso     stretch median   1.4%  95th  33.1%  >15%: 305 edges  hot spots around z [1.13, 1.33, 1.37]
+  left_btorso      stretch median   1.1%  95th  27.3%  >15%: 217 edges  hot spots around z [1.08, 1.29, 1.38]
+  left_sleeve_b    stretch median   3.0%  95th  51.1%  >15%: 204 edges  hot spots around z [1.26, 1.31, 1.36]
+  left_sleeve_f    stretch median   3.7%  95th  54.3%  >15%: 206 edges  hot spots around z [1.25, 1.31, 1.36]
+  left_ftorso      stretch median   1.4%  95th  31.5%  >15%: 279 edges  hot spots around z [1.14, 1.33, 1.38]
+welded: 3695 vertices, 7214 triangles
+fit: hem 101.7 cm above floor (pattern 97.6); cloth to skin median 1.3 cm, 90th 2.8 cm; 0 points inside the body
+rest pose: 1 garment points inside the body
+Info: Saved as "tee_sa40_draped.blend"
+INFO Draco mesh compression is available, use library at /Applications/Blender.app/Contents/Resources/5.1/scripts/addons_core/io_scene_gltf2/libextern_draco.dylib
+18:56:01 | INFO: Starting glTF 2.0 export
+18:56:01 | INFO: Extracting primitive: tee_sa40.001
+18:56:01 | WARNING: The active Vertex Color will not be exported, as it is not used in the node tree of the material
+18:56:01 | INFO: Primitives created: 1
+18:56:01 | INFO: Finished glTF 2.0 export in 0.019227981567382812 s
+
+wrote /Users/vaz/Desktop/antigravity_apps/GarmentCode/sion_pipeline/out/tee_sa40/tee_sa40.glb
+Blender 5.1.2 (hash ec6e62d40fa9 built 2026-05-19 01:30:33)
+
+Blender quit

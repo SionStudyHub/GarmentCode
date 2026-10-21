@@ -1,0 +1,9 @@
+{
+  "avatars": 1,
+  "joints": 188,
+  "transfer": 1,
+  "expected_vertices": 26726,
+  "restored_vertices": 26726,
+  "export_fbx": 1,
+  "success": true
+}

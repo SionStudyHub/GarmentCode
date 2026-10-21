@@ -1,0 +1,19 @@
+{
+  "sew_frames": 150,
+  "sew_gap_mean_mm": 0.5,
+  "sew_gap_max_mm": 16.8,
+  "settle_frames": 60,
+  "settle_gap_mean_mm": 0.5,
+  "settle_gap_max_mm": 14.2,
+  "stretch_median_pct": 0.1,
+  "stretch_95th_pct": 7.3,
+  "stretch_max_pct": 82.7,
+  "hem_cm": 104.9,
+  "hem_pattern_cm": 97.6,
+  "skin_gap_median_cm": 1.0,
+  "skin_gap_90th_cm": 2.1,
+  "points_inside_body": 0,
+  "vertices": 3579,
+  "triangles": 6986,
+  "fabric": "old settings (bending 2, sewing force 10)"
+}

@@ -1,0 +1,12 @@
+{
+  "groups": 20,
+  "vertices": 26726,
+  "inner_outer_triangle_intersections": 0,
+  "inner_body_triangle_intersections": 0,
+  "outer_body_triangle_intersections": 0,
+  "l0_ftorso_low_y_mm": 800.376282,
+  "l0_btorso_low_y_mm": 814.00885433,
+  "l1_ftorso_low_y_mm": 862.924744,
+  "l1_btorso_low_y_mm": 847.355835,
+  "body_intersections_by_panel": {}
+}

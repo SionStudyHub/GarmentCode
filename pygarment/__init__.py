@@ -1,6 +1,8 @@
 """
     A Python library for building parametric sewing pattern programs
 """
+import os
+os.environ.setdefault('MPLCONFIGDIR', '/tmp/matplotlib')
 
 # Building blocks
 from pygarment.garmentcode.component import Component

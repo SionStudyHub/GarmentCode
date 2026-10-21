@@ -1,0 +1,20 @@
+{
+  "sew_frames": 150,
+  "sew_gap_mean_mm": 0.4,
+  "sew_gap_max_mm": 8.1,
+  "settle_frames": 60,
+  "settle_gap_mean_mm": 0.3,
+  "settle_gap_max_mm": 5.4,
+  "stretch_median_pct": -0.0,
+  "stretch_95th_pct": 6.2,
+  "stretch_max_pct": 60.2,
+  "hem_cm": 96.0,
+  "hem_pattern_cm": 97.6,
+  "skin_gap_median_cm": 1.7,
+  "skin_gap_90th_cm": 3.5,
+  "points_inside_body": 0,
+  "vertices": 3579,
+  "triangles": 6986,
+  "fabric": "cotton_jersey",
+  "seconds": 30
+}

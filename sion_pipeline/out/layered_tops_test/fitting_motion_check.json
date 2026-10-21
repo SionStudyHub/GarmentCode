@@ -1,0 +1,120 @@
+{
+  "gender": "female",
+  "ok": false,
+  "pokePoints": 0,
+  "seconds": 1.1,
+  "poses": [
+    {
+      "clip": null,
+      "time": 0
+    },
+    {
+      "clip": "Idle",
+      "time": 1.33
+    },
+    {
+      "clip": "Idle",
+      "time": 3.98
+    },
+    {
+      "clip": "Idle",
+      "time": 6.64
+    }
+  ],
+  "outfits": [
+    {
+      "outfit": "layered-shirt",
+      "shape": "default",
+      "clip": "rest",
+      "time": 0,
+      "points": 0,
+      "spots": 0,
+      "worstMm": 0
+    },
+    {
+      "outfit": "layered-shirt",
+      "shape": "default",
+      "clip": "Idle",
+      "time": 1.33,
+      "points": 0,
+      "spots": 0,
+      "worstMm": 0
+    },
+    {
+      "outfit": "layered-shirt",
+      "shape": "default",
+      "clip": "Idle",
+      "time": 3.98,
+      "points": 0,
+      "spots": 0,
+      "worstMm": 0
+    },
+    {
+      "outfit": "layered-shirt",
+      "shape": "default",
+      "clip": "Idle",
+      "time": 6.64,
+      "points": 0,
+      "spots": 0,
+      "worstMm": 0
+    }
+  ],
+  "spots": [],
+  "problems": [
+    {
+      "store": "imports",
+      "file": "azul.top.glb",
+      "message": "Made for a different version of this avatar; import it again"
+    },
+    {
+      "store": "imports",
+      "file": "baile.gown.glb",
+      "message": "Made for a different version of this avatar; import it again"
+    },
+    {
+      "store": "imports",
+      "file": "dragao.helm.glb",
+      "message": "Made for a different version of this avatar; import it again"
+    },
+    {
+      "store": "imports",
+      "file": "gc.shirt.glb",
+      "message": "Made for a different version of this avatar; import it again"
+    },
+    {
+      "store": "imports",
+      "file": "gcwarp-tank.top.glb",
+      "message": "Made for a different version of this avatar; import it again"
+    },
+    {
+      "store": "imports",
+      "file": "gcwarp-tank3.top.glb",
+      "message": "Made for a different version of this avatar; import it again"
+    },
+    {
+      "store": "imports",
+      "file": "gcwarp-tank4.top.glb",
+      "message": "Made for a different version of this avatar; import it again"
+    },
+    {
+      "store": "imports",
+      "file": "gcwarp.shirt.glb",
+      "message": "Made for a different version of this avatar; import it again"
+    },
+    {
+      "store": "imports",
+      "file": "goth.dress.glb",
+      "message": "Made for a different version of this avatar; import it again"
+    },
+    {
+      "store": "imports",
+      "file": "goth.shoes.glb",
+      "message": "Made for a different version of this avatar; import it again"
+    },
+    {
+      "store": "edits",
+      "file": "catalog-edits/female.json",
+      "message": "remove: no item \"azul:top\" in the catalog"
+    }
+  ]
+}

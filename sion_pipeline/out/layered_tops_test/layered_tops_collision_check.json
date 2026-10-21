@@ -1,0 +1,9 @@
+{
+  "groups": 20,
+  "vertices": 26726,
+  "body_intersections_by_panel": {},
+  "layer_triangle_intersections": {
+    "l0/l1": 0
+  },
+  "success": true
+}

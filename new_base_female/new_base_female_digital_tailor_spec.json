@@ -1,0 +1,307 @@
+{
+  "source": {
+    "file": "new_base_female.vrm",
+    "measurement_basis": "underlying Body skin mesh; clothing/hair excluded",
+    "pose": "VRM bind/rest pose with arms extended approximately horizontally",
+    "unit": "cm",
+    "coordinate_system": {
+      "x": "left-right; +X is avatar left",
+      "y": "vertical; +Y upward; floor approximately Y=0",
+      "z": "front-back; +Z is anterior/front"
+    }
+  },
+  "measurement_conventions": {
+    "tape_circumference": "convex-hull perimeter of the anatomical cross-section; approximates a tailor tape bridging small concavities",
+    "surface_perimeter": "literal mesh cross-section perimeter; can be longer around cleavage/crotch/creases",
+    "front_back_arcs": "front and back portions of the tape-style convex cross-section between lateral extremes",
+    "surface_lengths": "sampled path lengths over front/back sagittal profile, not geodesics over arbitrary diagonals",
+    "middepth_front_back_arcs": "additional front/back arc split at the midpoint between anterior and posterior depth; more stable for this mesh where maximum-width points at the bust lie unusually far anterior."
+  },
+  "primary_landmarks": {
+    "height": 173.215,
+    "head_top_height": 173.215,
+    "widest_head_line_height": 163.095,
+    "narrow_neck_line_height": 147.169,
+    "base_neck_reference_height": 144.019,
+    "shoulder_joint_height": 140.161,
+    "underarm_reference_height": 122.709,
+    "full_bust_line_height": 130.482,
+    "bust_apex_height": 127.306,
+    "underbust_reference_height": 125.135,
+    "natural_waist_height": 116.413,
+    "high_hip_height": 107.784,
+    "full_hip_height": 95.212,
+    "buttock_apex_height": 101.498,
+    "crotch_inseam_height": 92.862,
+    "hip_joint_height": 97.662,
+    "knee_joint_height": 56.199,
+    "ankle_joint_height": 8.905
+  },
+  "head_and_neck": {
+    "head_widest": {
+      "circumference_cm": 64.529,
+      "width_cm": 18.73,
+      "depth_cm": 21.652,
+      "front_projection_z_cm": 7.986,
+      "back_projection_z_cm": -13.666
+    },
+    "head_height_chin_region_to_top_cm": 24.724,
+    "neck_narrow": {
+      "tape_circumference_cm": 21.969,
+      "surface_perimeter_cm": 21.97,
+      "width_cm": 6.664,
+      "depth_cm": 7.355,
+      "front_projection_z_cm": 0.891,
+      "back_projection_z_cm": -6.464,
+      "front_arc_cm": 12.845,
+      "back_arc_cm": 9.123
+    },
+    "neck_base_reference": {
+      "tape_circumference_cm": 31.816,
+      "surface_perimeter_cm": 32.178,
+      "width_cm": 13.084,
+      "depth_cm": 7.654,
+      "front_projection_z_cm": 1.025,
+      "back_projection_z_cm": -6.628,
+      "front_arc_cm": 16.652,
+      "back_arc_cm": 15.164
+    }
+  },
+  "shoulder_and_scye": {
+    "shoulder_joint_to_joint_width_cm": 18.979,
+    "neck_center_to_shoulder_joint_cm": 10.281,
+    "shoulder_inclination_from_horizontal_deg": 22.126,
+    "arm_root_plane_circumference_proxy_cm": 61.161,
+    "arm_root_vertical_diameter_cm": 20.867,
+    "arm_root_front_back_diameter_cm": 19.672,
+    "armscye_depth_proxy_cm": 21.31,
+    "note": "arm-root/scye values are geometric proxies from a plane through the upper-arm joint; useful for automated fitting but not identical to a human tape armscye.",
+    "clear_lateral_arm_root_preferred": {
+      "plane_x_cm": 11.69,
+      "circumference_cm": 32.081,
+      "vertical_diameter_cm": 11.395,
+      "front_back_diameter_cm": 9.918,
+      "underarm_height_cm": 131.87,
+      "top_height_cm": 143.265,
+      "neck_base_to_underarm_vertical_cm": 12.149
+    },
+    "legacy_shoulder_joint_plane_warning": "On this new mesh the shoulder joint sits relatively medial to the torso, so the legacy plane-through-joint proxy intersects much more torso than on the previous base. Prefer clear_lateral_arm_root_preferred for garment fitting."
+  },
+  "torso_sections": {
+    "high_bust": {
+      "tape_circumference_cm": 74.146,
+      "surface_perimeter_cm": 79.171,
+      "width_cm": 24.011,
+      "depth_cm": 18.755,
+      "front_projection_z_cm": 11.46,
+      "back_projection_z_cm": -7.295,
+      "front_arc_cm": 28.355,
+      "back_arc_cm": 45.79,
+      "middepth_front_arc_cm": 38.506,
+      "middepth_back_arc_cm": 35.64,
+      "middepth_split_z_cm": 2.082
+    },
+    "full_bust": {
+      "tape_circumference_cm": 75.687,
+      "surface_perimeter_cm": 80.399,
+      "width_cm": 24.084,
+      "depth_cm": 19.794,
+      "front_projection_z_cm": 13.148,
+      "back_projection_z_cm": -6.646,
+      "front_arc_cm": 29.103,
+      "back_arc_cm": 46.585,
+      "middepth_front_arc_cm": 39.603,
+      "middepth_back_arc_cm": 36.084,
+      "middepth_split_z_cm": 3.251
+    },
+    "underbust": {
+      "tape_circumference_cm": 61.674,
+      "surface_perimeter_cm": 61.939,
+      "width_cm": 20.847,
+      "depth_cm": 16.411,
+      "front_projection_z_cm": 11.778,
+      "back_projection_z_cm": -4.633,
+      "front_arc_cm": 33.835,
+      "back_arc_cm": 27.839,
+      "middepth_front_arc_cm": 30.887,
+      "middepth_back_arc_cm": 30.785,
+      "middepth_split_z_cm": 3.573
+    },
+    "waist": {
+      "tape_circumference_cm": 45.398,
+      "surface_perimeter_cm": 45.466,
+      "width_cm": 16.166,
+      "depth_cm": 12.232,
+      "front_projection_z_cm": 10.586,
+      "back_projection_z_cm": -1.646,
+      "front_arc_cm": 23.629,
+      "back_arc_cm": 21.77,
+      "middepth_front_arc_cm": 22.167,
+      "middepth_back_arc_cm": 23.231,
+      "middepth_split_z_cm": 4.47
+    },
+    "high_hip": {
+      "tape_circumference_cm": 61.282,
+      "surface_perimeter_cm": 61.482,
+      "width_cm": 21.856,
+      "depth_cm": 15.349,
+      "front_projection_z_cm": 9.742,
+      "back_projection_z_cm": -5.607,
+      "front_arc_cm": 30.807,
+      "back_arc_cm": 30.475,
+      "middepth_front_arc_cm": 31.1,
+      "middepth_back_arc_cm": 30.181,
+      "middepth_split_z_cm": 2.068
+    },
+    "full_hip_seat": {
+      "tape_circumference_cm": 83.48,
+      "surface_perimeter_cm": 92.668,
+      "width_cm": 31.152,
+      "depth_cm": 18.249,
+      "front_projection_z_cm": 7.707,
+      "back_projection_z_cm": -10.543,
+      "front_arc_cm": 40.526,
+      "back_arc_cm": 42.954,
+      "middepth_front_arc_cm": 42.787,
+      "middepth_back_arc_cm": 40.692,
+      "middepth_split_z_cm": -1.418
+    }
+  },
+  "bust_and_seat_landmarks": {
+    "bust_apex_to_apex_cm": 13.546,
+    "bust_apex_height_above_waist_cm": 10.894,
+    "bust_apex_front_projection_z_cm": 13.957,
+    "buttock_apex_to_apex_cm": 6.509,
+    "buttock_apex_height_cm": 101.498,
+    "buttock_apex_back_projection_z_cm": -11.498
+  },
+  "vertical_and_surface_lengths": {
+    "base_neck_to_waist_vertical_cm": 27.606,
+    "waist_to_full_bust_vertical_cm": 14.069,
+    "waist_to_underbust_vertical_cm": 8.723,
+    "waist_to_high_hip_vertical_cm": 8.629,
+    "waist_to_full_hip_vertical_cm": 21.201,
+    "waist_to_crotch_vertical_cm": 23.551,
+    "center_front_base_neck_to_waist_surface_cm": 34.472,
+    "center_back_base_neck_to_waist_surface_cm": 28.841,
+    "front_over_bust_shoulder_region_to_waist_surface_cm": 35.595,
+    "back_shoulder_region_to_waist_surface_cm": 28.33,
+    "front_rise_surface_cm": 23.944,
+    "back_rise_surface_cm": 27.501,
+    "inseam_height_floor_to_crotch_cm": 92.862
+  },
+  "arms": {
+    "upper_arm_bone_shoulder_to_elbow_cm": 22.928,
+    "forearm_bone_elbow_to_wrist_cm": 21.388,
+    "shoulder_to_wrist_bone_cm": 44.317,
+    "shoulder_to_fingertip_approx_cm": 59.342,
+    "wingspan_fingertip_to_fingertip_cm": 137.663,
+    "upper_arm_near_root": {
+      "circumference_cm": 23.103,
+      "vertical_diameter_cm": 7.254,
+      "front_back_diameter_cm": 7.634,
+      "section_center_y_cm": 138.997,
+      "section_center_z_cm": -2.449
+    },
+    "mid_upper_arm": {
+      "circumference_cm": 20.867,
+      "vertical_diameter_cm": 6.401,
+      "front_back_diameter_cm": 6.806,
+      "section_center_y_cm": 139.286,
+      "section_center_z_cm": -2.28
+    },
+    "elbow_at_skeleton_plane": {
+      "circumference_cm": 17.622,
+      "vertical_diameter_cm": 4.873,
+      "front_back_diameter_cm": 6.273,
+      "section_center_y_cm": 139.92,
+      "section_center_z_cm": -3.071
+    },
+    "max_forearm": {
+      "x_height_from_center_cm": 38.09,
+      "circumference_cm": 19.677,
+      "vertical_diameter_cm": 6.179,
+      "front_back_diameter_cm": 6.205,
+      "section_center_y_cm": 140.18,
+      "section_center_z_cm": -2.893
+    },
+    "wrist_min": {
+      "x_height_from_center_cm": 51.69,
+      "circumference_cm": 11.991,
+      "vertical_diameter_cm": 3.009,
+      "front_back_diameter_cm": 4.636,
+      "section_center_y_cm": 140.173,
+      "section_center_z_cm": -2.994
+    },
+    "hand_length_wrist_to_fingertip_approx_cm": 15.025
+  },
+  "legs_and_feet": {
+    "hip_joint_to_knee_bone_cm": 41.478,
+    "knee_to_ankle_bone_cm": 47.365,
+    "hip_joint_to_ankle_bone_cm": 88.834,
+    "upper_thigh_just_below_crotch": {
+      "circumference_cm": 48.279,
+      "width_cm": 15.375,
+      "depth_cm": 15.736,
+      "center_x_cm": 7.021,
+      "center_z_cm": -0.11
+    },
+    "mid_thigh": {
+      "circumference_cm": 38.283,
+      "width_cm": 11.678,
+      "depth_cm": 13.053,
+      "center_x_cm": 7.897,
+      "center_z_cm": -0.569
+    },
+    "knee_at_skeleton_height": {
+      "circumference_cm": 26.798,
+      "width_cm": 7.634,
+      "depth_cm": 9.911,
+      "center_x_cm": 7.472,
+      "center_z_cm": -2.194
+    },
+    "max_calf": {
+      "height_cm": 42.105,
+      "circumference_cm": 29.671,
+      "width_cm": 8.375,
+      "depth_cm": 10.801,
+      "center_x_cm": 7.973,
+      "center_z_cm": -5.207
+    },
+    "minimum_ankle": {
+      "height_cm": 14.505,
+      "circumference_cm": 17.757,
+      "width_cm": 4.782,
+      "depth_cm": 6.778,
+      "center_x_cm": 7.454,
+      "center_z_cm": -4.632
+    },
+    "foot_length_heel_to_toe_approx_cm": 19.401,
+    "foot_max_width_cm": 6.545
+  },
+  "garmentcode_overlap_candidates": {
+    "height": 173.215,
+    "head_l": 29.196,
+    "bust": 75.687,
+    "underbust": 61.674,
+    "waist": 45.398,
+    "hips": 83.48,
+    "back_width": 46.585,
+    "waist_back_width": 21.77,
+    "hip_back_width": 42.954,
+    "bust_points": 13.546,
+    "bum_points": 6.509,
+    "shoulder_w": 18.979,
+    "shoulder_incl": 22.126,
+    "arm_length": 44.317,
+    "leg_circ": 48.279,
+    "wrist": 11.991,
+    "neck_w_proxy": 13.084,
+    "waist_line_candidate": 28.841,
+    "waist_over_bust_line_candidate": 35.595,
+    "hips_line_candidate": 21.201,
+    "warning": "These names overlap GarmentCode's body YAML schema, but fields labeled candidate/proxy should be checked against GarmentCode's exact measurement definitions before production use.",
+    "armscye_depth_legacy_proxy": 21.31,
+    "armscye_depth_clear_proxy": 12.149
+  }
+}

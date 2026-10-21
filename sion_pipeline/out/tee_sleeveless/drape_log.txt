@@ -1,0 +1,57 @@
+/Users/vaz/Desktop/antigravity_apps/GarmentCode/sion_pipeline/drape_blender.py:211: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  m.use_nodes = True
+start layout (cm): {'armpit': 124.7, 'half_width': [7.7, 14.1], 'half_depth': [5.1, 10.7], 'points_pushed_out': 830}
+sew frame   5  seam gap mean   5.5 mm  max   60.0 mm      0 s
+sew frame  10  seam gap mean   0.8 mm  max   14.5 mm      1 s
+sew frame  15  seam gap mean   0.1 mm  max    0.4 mm      2 s
+sew worst seams: left_btorso~left_ftorso 0mm @z1.10, right_btorso~right_ftorso 0mm @z1.10, right_btorso~right_ftorso 0mm @z1.11, right_btorso~right_ftorso 0mm @z1.08, left_btorso~left_ftorso 0mm @z1.11, left_btorso~left_ftorso 0mm @z1.07
+settle frame   5  seam gap mean   0.1 mm  max    1.2 mm      1 s
+settle frame  10  seam gap mean   0.1 mm  max    1.2 mm      1 s
+settle frame  15  seam gap mean   0.1 mm  max    1.3 mm      2 s
+settle frame  20  seam gap mean   0.1 mm  max    1.3 mm      3 s
+settle frame  25  seam gap mean   0.1 mm  max    1.3 mm      3 s
+settle frame  30  seam gap mean   0.1 mm  max    1.3 mm      4 s
+settle frame  35  seam gap mean   0.1 mm  max    1.3 mm      5 s
+settle frame  40  seam gap mean   0.1 mm  max    1.3 mm      5 s
+settle frame  45  seam gap mean   0.1 mm  max    1.4 mm      6 s
+settle frame  50  seam gap mean   0.1 mm  max    1.3 mm      7 s
+settle frame  55  seam gap mean   0.1 mm  max    1.2 mm      8 s
+settle frame  60  seam gap mean   0.1 mm  max    1.3 mm      9 s
+settle frame  65  seam gap mean   0.1 mm  max    1.2 mm     10 s
+settle frame  70  seam gap mean   0.1 mm  max    1.4 mm     11 s
+settle frame  75  seam gap mean   0.1 mm  max    1.3 mm     12 s
+settle frame  80  seam gap mean   0.1 mm  max    1.3 mm     13 s
+settle frame  85  seam gap mean   0.1 mm  max    1.3 mm     14 s
+settle frame  90  seam gap mean   0.1 mm  max    1.3 mm     15 s
+settle frame  95  seam gap mean   0.1 mm  max    1.3 mm     16 s
+settle frame 100  seam gap mean   0.1 mm  max    1.3 mm     17 s
+settle frame 105  seam gap mean   0.1 mm  max    1.3 mm     18 s
+settle frame 110  seam gap mean   0.1 mm  max    1.3 mm     18 s
+settle frame 115  seam gap mean   0.1 mm  max    1.4 mm     19 s
+settle frame 120  seam gap mean   0.1 mm  max    1.3 mm     20 s
+00:22.639  render           | Saved: '/Users/vaz/Desktop/antigravity_apps/GarmentCode/sion_pipeline/out/tee_sleeveless/tee_sleeveless_front.png'
+00:22.693  render           | Saved: '/Users/vaz/Desktop/antigravity_apps/GarmentCode/sion_pipeline/out/tee_sleeveless/tee_sleeveless_side.png'
+00:22.745  render           | Saved: '/Users/vaz/Desktop/antigravity_apps/GarmentCode/sion_pipeline/out/tee_sleeveless/tee_sleeveless_back.png'
+00:22.795  render           | Saved: '/Users/vaz/Desktop/antigravity_apps/GarmentCode/sion_pipeline/out/tee_sleeveless/tee_sleeveless_stretch_front.png'
+00:22.847  render           | Saved: '/Users/vaz/Desktop/antigravity_apps/GarmentCode/sion_pipeline/out/tee_sleeveless/tee_sleeveless_stretch_back.png'
+00:22.895  render           | Saved: '/Users/vaz/Desktop/antigravity_apps/GarmentCode/sion_pipeline/out/tee_sleeveless/tee_sleeveless_stretch_side.png'
+settle worst seams: right_btorso~right_ftorso 1mm @z1.40, right_btorso~right_ftorso 1mm @z1.40, right_btorso~right_ftorso 1mm @z1.41, left_btorso~left_ftorso 1mm @z1.40, left_btorso~left_ftorso 1mm @z1.39, left_btorso~left_ftorso 1mm @z1.39
+stretch vs pattern: median 0.9%  95th 26.9%  max 201.7%
+  right_btorso     stretch median   0.9%  95th  24.3%  >15%: 192 edges  hot spots around z [1.06, 1.26, 1.37]
+  right_ftorso     stretch median   1.0%  95th  29.9%  >15%: 304 edges  hot spots around z [1.1, 1.3, 1.37]
+  left_btorso      stretch median   0.9%  95th  23.2%  >15%: 179 edges  hot spots around z [1.06, 1.26, 1.36]
+  left_ftorso      stretch median   0.9%  95th  28.0%  >15%: 281 edges  hot spots around z [1.1, 1.3, 1.37]
+welded: 2544 vertices, 4892 triangles
+fit: hem 99.9 cm above floor (pattern 97.6); cloth to skin median 1.4 cm, 90th 3.2 cm; 0 points inside the body
+Info: Saved as "tee_sleeveless_draped.blend"
+INFO Draco mesh compression is available, use library at /Applications/Blender.app/Contents/Resources/5.1/scripts/addons_core/io_scene_gltf2/libextern_draco.dylib
+18:45:27 | INFO: Starting glTF 2.0 export
+18:45:27 | INFO: Extracting primitive: tee_sleeveless.001
+18:45:27 | WARNING: The active Vertex Color will not be exported, as it is not used in the node tree of the material
+18:45:27 | INFO: Primitives created: 1
+18:45:27 | INFO: Finished glTF 2.0 export in 0.025651216506958008 s
+
+wrote /Users/vaz/Desktop/antigravity_apps/GarmentCode/sion_pipeline/out/tee_sleeveless/tee_sleeveless.glb
+Blender 5.1.2 (hash ec6e62d40fa9 built 2026-05-19 01:30:33)
+
+Blender quit

@@ -1,0 +1,4 @@
+newmtl InnerLightBlue
+Kd 0.55 0.72 0.88
+newmtl OuterCharcoal
+Kd 0.045 0.045 0.055

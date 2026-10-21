@@ -1,0 +1,25 @@
+{
+  "source_mapping_nearest_distance_mm": {
+    "p50": 0.0005422185154202452,
+    "max": 2.5413758121430874
+  },
+  "converter_raw8_vs_filtered4": {
+    "verticesL1Over01": 2618,
+    "maxL1": 1.4874765192431134
+  },
+  "filtered4_vs_imported": {
+    "verticesL1Over01": 0,
+    "maxL1": 0.09690296059905451
+  },
+  "near_layer_vertex_pairs_12mm": {
+    "count": 9651,
+    "weightsL1Over02": 407,
+    "meanWeightL1": 0.051235990508969764,
+    "maxWeightL1": 1.5371541306376457,
+    "relativeVectorChangeAtModelPoseMm": {
+      "median": 0.6229897887564726,
+      "p95": 4.776044346837936,
+      "max": 30.432687468132844
+    }
+  }
+}

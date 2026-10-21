@@ -1,0 +1,409 @@
+{
+  "about": "Fabric presets, like the fabric library in Marvelous Designer. \"physical\" is the real fabric as a lab would measure it (typical published values for the fabric type, approximate: replace them with measurements of your own fabric when you have them). \"blender\" is the Blender cloth setting that makes the simulated fabric pass the same tests (fabric_tests.py --calibrate writes it; valid for garments meshed at res 1 cm, cloth quality 10). \"measured\" is what the calibrated cloth scored in the tests.",
+  "units": {
+    "weight_gsm": "g/m2",
+    "thickness_mm": "mm",
+    "bending_length_cm": "cm, Peirce cantilever (ASTM D1388)",
+    "stretch_pct": "% lengthening under a pull of 1 N per cm of width",
+    "drape_coefficient": "Cusick, 30 cm circle on an 18 cm stand: 0 hangs straight down, 1 stays flat",
+    "friction": "Blender cloth-on-body friction (not measured)"
+  },
+  "mass_per_gsm": 0.0009375,
+  "tests": {
+    "hang_g": 20.0,
+    "ref_load_n_per_cm": 1.0,
+    "min_hang_stretch_pct": 0.5,
+    "compression_ratio": 0.03,
+    "drape_runs": 3,
+    "drape_stand_cm": 18.0,
+    "air": 5.0,
+    "min_collision_distance": 0.003
+  },
+  "presets": {
+    "silk_chiffon": {
+      "label": "Silk chiffon",
+      "physical": {
+        "weight_gsm": 40,
+        "thickness_mm": 0.12,
+        "bending_length_cm": 1.1,
+        "stretch_pct": 3.0,
+        "drape_coefficient": 0.28,
+        "friction": 3
+      },
+      "blender": {
+        "mass": 0.0375,
+        "tension": 44.161,
+        "compression": 1.3248,
+        "shear": 1.3248,
+        "bending": 4.0958,
+        "damping": 5.0,
+        "collision_distance": 0.003,
+        "friction": 3
+      },
+      "measured": {
+        "stretch_pct": 0.501,
+        "drape_coefficient": 0.222,
+        "drape_runs": [
+          0.198,
+          0.21,
+          0.259
+        ],
+        "drape_folds": 7,
+        "bending_length_cm": 0.88,
+        "cantilever_overhang_cm": 4.0,
+        "cantilever_chord_deg": 80.0
+      },
+      "calibrated": "2026-10-13, Blender 5.1.2, res 1.0 cm"
+    },
+    "silk_satin": {
+      "label": "Silk satin (charmeuse)",
+      "physical": {
+        "weight_gsm": 90,
+        "thickness_mm": 0.2,
+        "bending_length_cm": 1.4,
+        "stretch_pct": 2.0,
+        "drape_coefficient": 0.35,
+        "friction": 2
+      },
+      "blender": {
+        "mass": 0.08437,
+        "tension": 96.474,
+        "compression": 2.8942,
+        "shear": 2.8942,
+        "bending": 28.394,
+        "damping": 5.0,
+        "collision_distance": 0.003,
+        "friction": 2
+      },
+      "measured": {
+        "stretch_pct": 0.516,
+        "drape_coefficient": 0.305,
+        "drape_runs": [
+          0.296,
+          0.308,
+          0.311
+        ],
+        "drape_folds": 5,
+        "bending_length_cm": 1.28,
+        "cantilever_overhang_cm": 4.0,
+        "cantilever_chord_deg": 68.7
+      },
+      "calibrated": "2026-10-13, Blender 5.1.2, res 1.0 cm"
+    },
+    "cotton_jersey": {
+      "label": "Cotton jersey (T-shirt knit)",
+      "physical": {
+        "weight_gsm": 160,
+        "thickness_mm": 0.6,
+        "bending_length_cm": 1.7,
+        "stretch_pct": 12.0,
+        "drape_coefficient": 0.42,
+        "friction": 5
+      },
+      "blender": {
+        "mass": 0.15,
+        "tension": 155.941,
+        "compression": 4.6782,
+        "shear": 4.6782,
+        "bending": 72.8419,
+        "damping": 5.0,
+        "collision_distance": 0.003,
+        "friction": 5
+      },
+      "measured": {
+        "stretch_pct": 0.566,
+        "drape_coefficient": 0.444,
+        "drape_runs": [
+          0.44,
+          0.494,
+          0.396
+        ],
+        "drape_folds": 6,
+        "bending_length_cm": 1.37,
+        "cantilever_overhang_cm": 4.0,
+        "cantilever_chord_deg": 65.7
+      },
+      "calibrated": "2026-10-13, Blender 5.1.2, res 1.0 cm"
+    },
+    "rib_knit": {
+      "label": "Cotton-spandex rib knit",
+      "physical": {
+        "weight_gsm": 220,
+        "thickness_mm": 0.9,
+        "bending_length_cm": 1.8,
+        "stretch_pct": 30.0,
+        "drape_coefficient": 0.45,
+        "friction": 5
+      },
+      "blender": {
+        "mass": 0.20625,
+        "tension": 57.055,
+        "compression": 1.7116,
+        "shear": 1.7116,
+        "bending": 95.4828,
+        "damping": 5.0,
+        "collision_distance": 0.003,
+        "friction": 5
+      },
+      "measured": {
+        "stretch_pct": 2.0,
+        "drape_coefficient": 0.44,
+        "drape_runs": [
+          0.465,
+          0.456,
+          0.4
+        ],
+        "drape_folds": 7,
+        "bending_length_cm": 1.26,
+        "cantilever_overhang_cm": 4.0,
+        "cantilever_chord_deg": 69.5
+      },
+      "calibrated": "2026-10-13, Blender 5.1.2, res 1.0 cm"
+    },
+    "cotton_poplin": {
+      "label": "Cotton poplin (shirting)",
+      "physical": {
+        "weight_gsm": 115,
+        "thickness_mm": 0.25,
+        "bending_length_cm": 2.2,
+        "stretch_pct": 1.5,
+        "drape_coefficient": 0.62,
+        "friction": 5
+      },
+      "blender": {
+        "mass": 0.10781,
+        "tension": 127.137,
+        "compression": 3.8141,
+        "shear": 3.8141,
+        "bending": 82.9872,
+        "damping": 5.0,
+        "collision_distance": 0.003,
+        "friction": 5
+      },
+      "measured": {
+        "stretch_pct": 0.501,
+        "drape_coefficient": 0.594,
+        "drape_runs": [
+          0.579,
+          0.564,
+          0.639
+        ],
+        "drape_folds": 4,
+        "bending_length_cm": 1.21,
+        "cantilever_overhang_cm": 4.0,
+        "cantilever_chord_deg": 71.2
+      },
+      "calibrated": "2026-10-13, Blender 5.1.2, res 1.0 cm"
+    },
+    "wool_suiting": {
+      "label": "Wool suiting (gabardine)",
+      "physical": {
+        "weight_gsm": 260,
+        "thickness_mm": 0.5,
+        "bending_length_cm": 2.6,
+        "stretch_pct": 2.5,
+        "drape_coefficient": 0.66,
+        "friction": 5
+      },
+      "blender": {
+        "mass": 0.24375,
+        "tension": 286.979,
+        "compression": 8.6094,
+        "shear": 8.6094,
+        "bending": 224.369,
+        "damping": 5.0,
+        "collision_distance": 0.003,
+        "friction": 5
+      },
+      "measured": {
+        "stretch_pct": 0.501,
+        "drape_coefficient": 0.649,
+        "drape_runs": [
+          0.675,
+          0.601,
+          0.671
+        ],
+        "drape_folds": 5,
+        "bending_length_cm": 0.7,
+        "cantilever_overhang_cm": 5.0,
+        "cantilever_chord_deg": 82.2
+      },
+      "calibrated": "2026-10-13, Blender 5.1.2, res 1.0 cm"
+    },
+    "fleece": {
+      "label": "Polyester fleece",
+      "physical": {
+        "weight_gsm": 280,
+        "thickness_mm": 2.5,
+        "bending_length_cm": 2.4,
+        "stretch_pct": 8.0,
+        "drape_coefficient": 0.6,
+        "friction": 7
+      },
+      "blender": {
+        "mass": 0.2625,
+        "tension": 232.48,
+        "compression": 6.9744,
+        "shear": 6.9744,
+        "bending": 194.994,
+        "damping": 5.0,
+        "collision_distance": 0.003,
+        "friction": 7
+      },
+      "measured": {
+        "stretch_pct": 0.661,
+        "drape_coefficient": 0.579,
+        "drape_runs": [
+          0.612,
+          0.536,
+          0.588
+        ],
+        "drape_folds": 4,
+        "bending_length_cm": 0.7,
+        "cantilever_overhang_cm": 5.0,
+        "cantilever_chord_deg": 82.9
+      },
+      "calibrated": "2026-10-13, Blender 5.1.2, res 1.0 cm"
+    },
+    "linen": {
+      "label": "Linen",
+      "physical": {
+        "weight_gsm": 180,
+        "thickness_mm": 0.4,
+        "bending_length_cm": 3.0,
+        "stretch_pct": 1.5,
+        "drape_coefficient": 0.74,
+        "friction": 5
+      },
+      "blender": {
+        "mass": 0.16875,
+        "tension": 198.85,
+        "compression": 5.9655,
+        "shear": 5.9655,
+        "bending": 203.4891,
+        "damping": 5.0,
+        "collision_distance": 0.003,
+        "friction": 5
+      },
+      "measured": {
+        "stretch_pct": 0.501,
+        "drape_coefficient": 0.74,
+        "drape_runs": [
+          0.743,
+          0.763,
+          0.715
+        ],
+        "drape_folds": 5,
+        "bending_length_cm": 0.71,
+        "cantilever_overhang_cm": 6.0,
+        "cantilever_chord_deg": 83.8
+      },
+      "calibrated": "2026-10-13, Blender 5.1.2, res 1.0 cm"
+    },
+    "denim": {
+      "label": "Denim, 12 oz (rigid)",
+      "physical": {
+        "weight_gsm": 400,
+        "thickness_mm": 0.8,
+        "bending_length_cm": 4.0,
+        "stretch_pct": 1.0,
+        "drape_coefficient": 0.8,
+        "friction": 6
+      },
+      "blender": {
+        "mass": 0.375,
+        "tension": 440.917,
+        "compression": 13.2275,
+        "shear": 13.2275,
+        "bending": 709.0737,
+        "damping": 5.0,
+        "collision_distance": 0.003,
+        "friction": 6
+      },
+      "measured": {
+        "stretch_pct": 0.502,
+        "drape_coefficient": 0.807,
+        "drape_runs": [
+          0.781,
+          0.85,
+          0.79
+        ],
+        "drape_folds": 5,
+        "bending_length_cm": 2.02,
+        "cantilever_overhang_cm": 8.0,
+        "cantilever_chord_deg": 76.9
+      },
+      "calibrated": "2026-10-13, Blender 5.1.2, res 1.0 cm"
+    },
+    "leather": {
+      "label": "Lamb leather (nappa, 0.9 mm)",
+      "physical": {
+        "weight_gsm": 500,
+        "thickness_mm": 0.9,
+        "bending_length_cm": 4.5,
+        "stretch_pct": 4.0,
+        "drape_coefficient": 0.82,
+        "friction": 6
+      },
+      "blender": {
+        "mass": 0.46875,
+        "tension": 465.541,
+        "compression": 13.9662,
+        "shear": 13.9662,
+        "bending": 1440.5779,
+        "damping": 5.0,
+        "collision_distance": 0.003,
+        "friction": 6
+      },
+      "measured": {
+        "stretch_pct": 0.592,
+        "drape_coefficient": 0.829,
+        "drape_runs": [
+          0.841,
+          0.835,
+          0.81
+        ],
+        "drape_folds": 5,
+        "bending_length_cm": 1.26,
+        "cantilever_overhang_cm": 9.0,
+        "cantilever_chord_deg": 81.1
+      },
+      "calibrated": "2026-10-13, Blender 5.1.2, res 1.0 cm"
+    },
+    "canvas": {
+      "label": "Cotton canvas",
+      "physical": {
+        "weight_gsm": 340,
+        "thickness_mm": 0.7,
+        "bending_length_cm": 5.5,
+        "stretch_pct": 1.0,
+        "drape_coefficient": 0.88,
+        "friction": 6
+      },
+      "blender": {
+        "mass": 0.31875,
+        "tension": 374.982,
+        "compression": 11.2495,
+        "shear": 11.2495,
+        "bending": 1385.366,
+        "damping": 5.0,
+        "collision_distance": 0.003,
+        "friction": 6
+      },
+      "measured": {
+        "stretch_pct": 0.502,
+        "drape_coefficient": 0.875,
+        "drape_runs": [
+          0.87,
+          0.888,
+          0.868
+        ],
+        "drape_folds": 5,
+        "bending_length_cm": 2.61,
+        "cantilever_overhang_cm": 11.0,
+        "cantilever_chord_deg": 78.4
+      },
+      "calibrated": "2026-10-13, Blender 5.1.2, res 1.0 cm"
+    }
+  }
+}

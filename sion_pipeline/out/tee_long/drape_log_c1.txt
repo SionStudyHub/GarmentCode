@@ -1,0 +1,76 @@
+/Users/vaz/Desktop/antigravity_apps/GarmentCode/sion_pipeline/drape_blender.py:286: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  m.use_nodes = True
+start layout (cm): {'armpit': 121.8, 'half_width': [7.8, 15.3], 'half_depth': [4.7, 10.2], 'left_arm_R': [2.5, 9.5], 'right_arm_R': [2.5, 9.5], 'points_pushed_out': 1215}
+sew frame   5  seam gap mean   2.7 mm  max   24.8 mm      1 s
+sew frame  10  seam gap mean   2.0 mm  max   14.4 mm      3 s
+sew frame  15  seam gap mean   1.7 mm  max   16.0 mm      4 s
+sew frame  20  seam gap mean   1.4 mm  max   13.7 mm      6 s
+sew frame  25  seam gap mean   1.4 mm  max   10.5 mm      7 s
+sew frame  30  seam gap mean   1.4 mm  max   11.9 mm      9 s
+sew frame  35  seam gap mean   1.4 mm  max   14.5 mm     10 s
+sew frame  40  seam gap mean   1.4 mm  max   13.2 mm     12 s
+sew frame  45  seam gap mean   1.3 mm  max   11.8 mm     13 s
+sew frame  50  seam gap mean   1.4 mm  max   10.5 mm     15 s
+sew frame  55  seam gap mean   1.5 mm  max   16.2 mm     16 s
+sew frame  60  seam gap mean   1.6 mm  max   13.4 mm     18 s
+sew frame  65  seam gap mean   1.6 mm  max   16.4 mm     19 s
+sew frame  70  seam gap mean   1.5 mm  max   13.1 mm     21 s
+sew frame  75  seam gap mean   1.2 mm  max   10.0 mm     22 s
+sew frame  80  seam gap mean   1.4 mm  max   14.2 mm     24 s
+sew frame  85  seam gap mean   1.3 mm  max   15.2 mm     26 s
+sew frame  90  seam gap mean   1.5 mm  max   21.7 mm     27 s
+sew frame  95  seam gap mean   1.5 mm  max   17.9 mm     29 s
+sew frame 100  seam gap mean   1.5 mm  max   12.9 mm     30 s
+sew frame 105  seam gap mean   1.6 mm  max   14.3 mm     32 s
+sew frame 110  seam gap mean   1.4 mm  max   14.2 mm     33 s
+sew frame 115  seam gap mean   1.4 mm  max    9.5 mm     35 s
+sew frame 120  seam gap mean   1.4 mm  max   11.9 mm     36 s
+sew frame 125  seam gap mean   1.5 mm  max   17.6 mm     38 s
+sew frame 130  seam gap mean   1.4 mm  max   10.3 mm     39 s
+sew frame 135  seam gap mean   1.2 mm  max   15.6 mm     41 s
+sew frame 140  seam gap mean   1.4 mm  max   13.0 mm     42 s
+sew frame 145  seam gap mean   1.7 mm  max   14.4 mm     44 s
+sew frame 150  seam gap mean   1.6 mm  max   16.1 mm     45 s
+sew worst seams: left_sleeve_f~left_ftorso 16mm @z1.28, right_sleeve_f~right_ftorso 12mm @z1.29, right_ftorso~left_ftorso 11mm @z1.32, right_ftorso~left_ftorso 10mm @z1.31, right_sleeve_f~right_ftorso 10mm @z1.29, left_btorso~left_ftorso 9mm @z1.27
+settle frame   5  seam gap mean   1.4 mm  max   13.2 mm      1 s
+settle frame  10  seam gap mean   1.5 mm  max   16.7 mm      3 s
+settle frame  15  seam gap mean   1.5 mm  max   16.1 mm      5 s
+settle frame  20  seam gap mean   1.6 mm  max   17.6 mm      6 s
+settle frame  25  seam gap mean   1.4 mm  max   11.1 mm      8 s
+settle frame  30  seam gap mean   1.4 mm  max   12.6 mm     10 s
+settle frame  35  seam gap mean   1.4 mm  max   12.0 mm     11 s
+settle frame  40  seam gap mean   1.3 mm  max    7.5 mm     13 s
+settle frame  45  seam gap mean   1.4 mm  max   10.0 mm     14 s
+settle frame  50  seam gap mean   1.5 mm  max   11.7 mm     15 s
+settle frame  55  seam gap mean   1.5 mm  max   16.4 mm     16 s
+settle frame  60  seam gap mean   1.4 mm  max   13.1 mm     17 s
+01:03.933  render           | Saved: '/Users/vaz/Desktop/antigravity_apps/GarmentCode/sion_pipeline/out/tee_long/tee_long_c1_front.png'
+01:03.973  render           | Saved: '/Users/vaz/Desktop/antigravity_apps/GarmentCode/sion_pipeline/out/tee_long/tee_long_c1_side.png'
+01:04.013  render           | Saved: '/Users/vaz/Desktop/antigravity_apps/GarmentCode/sion_pipeline/out/tee_long/tee_long_c1_back.png'
+01:04.056  render           | Saved: '/Users/vaz/Desktop/antigravity_apps/GarmentCode/sion_pipeline/out/tee_long/tee_long_c1_stretch_front.png'
+01:04.095  render           | Saved: '/Users/vaz/Desktop/antigravity_apps/GarmentCode/sion_pipeline/out/tee_long/tee_long_c1_stretch_back.png'
+01:04.133  render           | Saved: '/Users/vaz/Desktop/antigravity_apps/GarmentCode/sion_pipeline/out/tee_long/tee_long_c1_stretch_side.png'
+settle worst seams: left_sleeve_f~left_ftorso 13mm @z1.28, right_ftorso~left_ftorso 11mm @z1.32, left_sleeve_b~left_sleeve_f 11mm @z1.28, left_sleeve_b~left_sleeve_f 11mm @z1.28, right_ftorso~left_ftorso 11mm @z1.31, left_sleeve_b~left_sleeve_f 8mm @z1.28
+stretch vs pattern: median 0.1%  95th 33.1%  max 181.9%
+  right_btorso     stretch median   0.3%  95th  25.2%  >15%: 165 edges  hot spots around z [1.25, 1.26, 1.27]
+  right_sleeve_b   stretch median   0.1%  95th  27.4%  >15%: 93 edges  hot spots around z [1.26, 1.27, 1.28]
+  right_sleeve_f   stretch median   0.1%  95th  27.8%  >15%: 87 edges  hot spots around z [1.27, 1.28, 1.29]
+  right_ftorso     stretch median   0.1%  95th  42.8%  >15%: 412 edges  hot spots around z [1.24, 1.29, 1.32]
+  left_btorso      stretch median   0.3%  95th  25.6%  >15%: 178 edges  hot spots around z [1.25, 1.26, 1.27]
+  left_sleeve_b    stretch median   0.1%  95th  34.1%  >15%: 113 edges  hot spots around z [1.26, 1.27, 1.28]
+  left_sleeve_f    stretch median   0.1%  95th  28.1%  >15%: 75 edges  hot spots around z [1.28, 1.29, 1.3]
+  left_ftorso      stretch median   0.1%  95th  42.2%  >15%: 368 edges  hot spots around z [1.27, 1.3, 1.32]
+welded: 4254 vertices, 8336 triangles
+fit: hem 101.2 cm above floor (pattern 88.2); cloth to skin median 1.1 cm, 90th 2.0 cm; 0 points inside the body
+Info: Saved as "tee_long_c1_draped.blend"
+INFO Draco mesh compression is available, use library at /Applications/Blender.app/Contents/Resources/5.1/scripts/addons_core/io_scene_gltf2/libextern_draco.dylib
+20:05:22 | INFO: Starting glTF 2.0 export
+20:05:22 | INFO: Extracting primitive: tee_long.001
+20:05:22 | WARNING: The active Vertex Color will not be exported, as it is not used in the node tree of the material
+20:05:22 | INFO: Primitives created: 1
+20:05:22 | INFO: Finished glTF 2.0 export in 0.021520137786865234 s
+
+wrote /Users/vaz/Desktop/antigravity_apps/GarmentCode/sion_pipeline/out/tee_long/tee_long_c1.glb
+Blender 5.1.2 (hash ec6e62d40fa9 built 2026-05-19 01:30:33)
+
+Blender quit

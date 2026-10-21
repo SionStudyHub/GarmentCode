@@ -31,3 +31,9 @@ output*
 
 # Nicegui
 .nicegui
+
+# Virtual environment
+.venv
+
+# macOS filesystem metadata
+.DS_Store

@@ -1,0 +1,152 @@
+{
+  "method": "actual cross-layer triangle overlaps; zero BVH epsilon",
+  "scope": "supplied frames only; no body, visibility, thickness or continuous-time check",
+  "frames": 13,
+  "failedFrames": 0,
+  "success": true,
+  "rows": [
+    {
+      "shape": "catalog",
+      "stage": "stored",
+      "clip": null,
+      "time": 0,
+      "file": "positions-0.bin",
+      "trianglePairs": 0,
+      "byLayerPair": {
+        "inner/outer": 0
+      }
+    },
+    {
+      "shape": "default",
+      "stage": "shaped",
+      "clip": null,
+      "time": 0,
+      "file": "positions-1.bin",
+      "trianglePairs": 0,
+      "byLayerPair": {
+        "inner/outer": 0
+      }
+    },
+    {
+      "shape": "default",
+      "stage": "dressed",
+      "clip": null,
+      "time": 0,
+      "file": "positions-2.bin",
+      "trianglePairs": 0,
+      "byLayerPair": {
+        "inner/outer": 0
+      }
+    },
+    {
+      "shape": "default",
+      "stage": "shaped",
+      "clip": "A-Pose",
+      "time": 0,
+      "file": "positions-3.bin",
+      "trianglePairs": 0,
+      "byLayerPair": {
+        "inner/outer": 0
+      }
+    },
+    {
+      "shape": "default",
+      "stage": "dressed",
+      "clip": "A-Pose",
+      "time": 0,
+      "file": "positions-4.bin",
+      "trianglePairs": 0,
+      "byLayerPair": {
+        "inner/outer": 0
+      }
+    },
+    {
+      "shape": "default",
+      "stage": "shaped",
+      "clip": "T-Pose",
+      "time": 0,
+      "file": "positions-53.bin",
+      "trianglePairs": 0,
+      "byLayerPair": {
+        "inner/outer": 0
+      }
+    },
+    {
+      "shape": "default",
+      "stage": "dressed",
+      "clip": "T-Pose",
+      "time": 0,
+      "file": "positions-54.bin",
+      "trianglePairs": 0,
+      "byLayerPair": {
+        "inner/outer": 0
+      }
+    },
+    {
+      "shape": "chest06",
+      "stage": "shaped",
+      "clip": null,
+      "time": 0,
+      "file": "positions-55.bin",
+      "trianglePairs": 0,
+      "byLayerPair": {
+        "inner/outer": 0
+      }
+    },
+    {
+      "shape": "chest06",
+      "stage": "dressed",
+      "clip": null,
+      "time": 0,
+      "file": "positions-56.bin",
+      "trianglePairs": 0,
+      "byLayerPair": {
+        "inner/outer": 0
+      }
+    },
+    {
+      "shape": "chest06",
+      "stage": "shaped",
+      "clip": "A-Pose",
+      "time": 0,
+      "file": "positions-57.bin",
+      "trianglePairs": 0,
+      "byLayerPair": {
+        "inner/outer": 0
+      }
+    },
+    {
+      "shape": "chest06",
+      "stage": "dressed",
+      "clip": "A-Pose",
+      "time": 0,
+      "file": "positions-58.bin",
+      "trianglePairs": 0,
+      "byLayerPair": {
+        "inner/outer": 0
+      }
+    },
+    {
+      "shape": "chest06",
+      "stage": "shaped",
+      "clip": "T-Pose",
+      "time": 0,
+      "file": "positions-107.bin",
+      "trianglePairs": 0,
+      "byLayerPair": {
+        "inner/outer": 0
+      }
+    },
+    {
+      "shape": "chest06",
+      "stage": "dressed",
+      "clip": "T-Pose",
+      "time": 0,
+      "file": "positions-108.bin",
+      "trianglePairs": 0,
+      "byLayerPair": {
+        "inner/outer": 0
+      }
+    }
+  ]
+}

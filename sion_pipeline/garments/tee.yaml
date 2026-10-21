@@ -1,0 +1,16 @@
+# T-shirt for the female sion-avatar: GarmentCode's plain tee, draped in the fitting app's A-pose.
+name: tee
+design: designs/tee_sa46.yaml      # GarmentCode design parameters (paths from sion_pipeline/)
+body: kit/sion_female_default.yaml # GarmentCode body measured from the default-shape sion-avatar body
+pattern:                           # make_pattern.py options
+  arm_angle: 46                    # sleeves cut for arms 46 degrees down (the A-pose)
+fabric: cotton_jersey              # preset from fabrics.json
+drape:                             # drape_blender.py options
+  gender: female
+  pose: a
+fitting:                           # sion-avatar fitting:import options, used by run.py --accept
+  as: gc:shirt
+  gender: female
+  weights: body
+  pose: a
+  check_outfit: gc

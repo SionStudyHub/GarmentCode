@@ -13,7 +13,14 @@ from assets.garment_programs.meta_garment import MetaGarment
 from assets.bodies.body_params import BodyParameters
 import pygarment as pyg
 from pygarment.meshgen.boxmeshgen import BoxMesh
-from pygarment.meshgen.simulation import run_sim
+try:
+    from pygarment.meshgen.simulation import run_sim
+except (ImportError, ModuleNotFoundError):
+    run_sim = None
+
+# The GarmentCode simulator is an optional dependency.  It is a custom
+# Nvidia Warp fork and is not available on platforms without CUDA support.
+SIMULATION_AVAILABLE = run_sim is not None
 import pygarment.data_config as data_config
 from pygarment.meshgen.sim_config import PathCofig
 
@@ -176,9 +183,14 @@ class GUIPattern:
     
     # Cleaning
     def clear_previous_svg(self):
-        """Clear previous svg display file"""
+        """Forget the previous SVG display file.
+
+        The browser can still request an older image while NiceGUI is
+        updating or reconnecting a client.  Deleting it immediately causes a
+        transient 404 and leaves the preview blank, so session cleanup owns
+        removal of the temporary directory instead.
+        """
         if self.svg_filename:
-            (self.tmp_path / self.svg_filename).unlink()
             self.svg_filename = ''
     
     def clear_previous_download(self):
@@ -231,6 +243,11 @@ class GUIPattern:
             paths, store_panels=False, uv_config=props['render']['config']['uv_texture'])
 
         # TODOLOW Don't print progress to console with so many lines
+        if run_sim is None:
+            raise RuntimeError(
+                "3D simulation requires the custom NvidiaWarp-GarmentCode simulator (CUDA/Linux/Windows). "
+                "Pattern generation and 2D viewing are fully functional."
+            )
         run_sim(
             garment_box_mesh.name, 
             props, 
@@ -352,4 +369,3 @@ class GUIPattern:
         print(f'Success! {self.sew_pattern.name} saved to {self.saved_garment_folder}')
 
         return self.saved_garment_archive if pack else self.saved_garment_folder
-

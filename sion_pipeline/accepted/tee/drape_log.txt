@@ -1,0 +1,76 @@
+/Users/vaz/Desktop/antigravity_apps/GarmentCode/sion_pipeline/drape_blender.py:286: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  m.use_nodes = True
+start layout (cm): {'armpit': 121.8, 'half_width': [7.7, 13.9], 'half_depth': [5.1, 10.6], 'left_arm_R': [3.0, 10.0], 'right_arm_R': [3.0, 10.0], 'points_pushed_out': 946}
+sew frame   5  seam gap mean  13.8 mm  max  110.1 mm      0 s
+sew frame  10  seam gap mean   5.3 mm  max   57.6 mm      1 s
+sew frame  15  seam gap mean   0.8 mm  max   19.4 mm      2 s
+sew frame  20  seam gap mean   0.7 mm  max   18.3 mm      3 s
+sew frame  25  seam gap mean   0.6 mm  max   18.2 mm      3 s
+sew frame  30  seam gap mean   0.6 mm  max   17.2 mm      4 s
+sew frame  35  seam gap mean   0.6 mm  max   17.0 mm      5 s
+sew frame  40  seam gap mean   0.5 mm  max   17.2 mm      6 s
+sew frame  45  seam gap mean   0.5 mm  max   17.6 mm      6 s
+sew frame  50  seam gap mean   0.5 mm  max   17.7 mm      7 s
+sew frame  55  seam gap mean   0.5 mm  max   17.4 mm      8 s
+sew frame  60  seam gap mean   0.5 mm  max   18.0 mm      9 s
+sew frame  65  seam gap mean   0.5 mm  max   16.9 mm      9 s
+sew frame  70  seam gap mean   0.5 mm  max   17.0 mm     10 s
+sew frame  75  seam gap mean   0.5 mm  max   17.8 mm     11 s
+sew frame  80  seam gap mean   0.5 mm  max   17.3 mm     12 s
+sew frame  85  seam gap mean   0.5 mm  max   16.9 mm     12 s
+sew frame  90  seam gap mean   0.5 mm  max   17.0 mm     13 s
+sew frame  95  seam gap mean   0.5 mm  max   15.8 mm     14 s
+sew frame 100  seam gap mean   0.5 mm  max   17.5 mm     15 s
+sew frame 105  seam gap mean   0.5 mm  max   16.4 mm     15 s
+sew frame 110  seam gap mean   0.5 mm  max   17.1 mm     16 s
+sew frame 115  seam gap mean   0.5 mm  max   17.0 mm     17 s
+sew frame 120  seam gap mean   0.5 mm  max   17.2 mm     17 s
+sew frame 125  seam gap mean   0.5 mm  max   16.3 mm     18 s
+sew frame 130  seam gap mean   0.5 mm  max   17.4 mm     19 s
+sew frame 135  seam gap mean   0.5 mm  max   17.1 mm     20 s
+sew frame 140  seam gap mean   0.5 mm  max   17.0 mm     20 s
+sew frame 145  seam gap mean   0.5 mm  max   16.9 mm     21 s
+sew frame 150  seam gap mean   0.5 mm  max   16.8 mm     22 s
+sew worst seams: right_sleeve_b~right_sleeve_f 17mm @z1.26, right_sleeve_b~right_sleeve_f 5mm @z1.26, left_sleeve_f~left_ftorso 5mm @z1.31, left_sleeve_f~left_ftorso 4mm @z1.29, left_btorso~left_sleeve_b 4mm @z1.29, left_sleeve_f~left_ftorso 3mm @z1.30
+settle frame   5  seam gap mean   0.5 mm  max   15.8 mm      1 s
+settle frame  10  seam gap mean   0.5 mm  max   15.7 mm      1 s
+settle frame  15  seam gap mean   0.5 mm  max   15.4 mm      2 s
+settle frame  20  seam gap mean   0.5 mm  max   15.5 mm      3 s
+settle frame  25  seam gap mean   0.5 mm  max   15.5 mm      4 s
+settle frame  30  seam gap mean   0.5 mm  max   16.1 mm      4 s
+settle frame  35  seam gap mean   0.5 mm  max   16.5 mm      5 s
+settle frame  40  seam gap mean   0.5 mm  max   15.6 mm      6 s
+settle frame  45  seam gap mean   0.5 mm  max   15.2 mm      7 s
+settle frame  50  seam gap mean   0.5 mm  max   13.6 mm      7 s
+settle frame  55  seam gap mean   0.5 mm  max   12.4 mm      8 s
+settle frame  60  seam gap mean   0.5 mm  max   14.2 mm      9 s
+00:31.970  render           | Saved: '/Users/vaz/Desktop/antigravity_apps/GarmentCode/sion_pipeline/out/tee_apose/tee_apose_front.png'
+00:32.011  render           | Saved: '/Users/vaz/Desktop/antigravity_apps/GarmentCode/sion_pipeline/out/tee_apose/tee_apose_side.png'
+00:32.051  render           | Saved: '/Users/vaz/Desktop/antigravity_apps/GarmentCode/sion_pipeline/out/tee_apose/tee_apose_back.png'
+00:32.092  render           | Saved: '/Users/vaz/Desktop/antigravity_apps/GarmentCode/sion_pipeline/out/tee_apose/tee_apose_stretch_front.png'
+00:32.130  render           | Saved: '/Users/vaz/Desktop/antigravity_apps/GarmentCode/sion_pipeline/out/tee_apose/tee_apose_stretch_back.png'
+00:32.167  render           | Saved: '/Users/vaz/Desktop/antigravity_apps/GarmentCode/sion_pipeline/out/tee_apose/tee_apose_stretch_side.png'
+settle worst seams: right_sleeve_b~right_sleeve_f 14mm @z1.25, right_sleeve_b~right_sleeve_f 4mm @z1.26, left_btorso~left_sleeve_b 4mm @z1.29, left_sleeve_f~left_ftorso 4mm @z1.31, left_btorso~left_sleeve_f 3mm @z1.28, left_sleeve_f~left_ftorso 3mm @z1.30
+stretch vs pattern: median 0.1%  95th 7.3%  max 82.7%
+  right_btorso     stretch median   0.1%  95th   4.1%  >15%: 0 edges
+  right_sleeve_b   stretch median   1.8%  95th  10.3%  >15%: 18 edges  hot spots around z [1.24, 1.26, 1.34]
+  right_sleeve_f   stretch median   1.8%  95th  17.5%  >15%: 50 edges  hot spots around z [1.27, 1.3, 1.32]
+  right_ftorso     stretch median   0.0%  95th   2.7%  >15%: 3 edges  hot spots around z [1.27, 1.28, 1.28]
+  left_btorso      stretch median   0.1%  95th   4.3%  >15%: 0 edges
+  left_sleeve_b    stretch median   1.8%  95th   8.7%  >15%: 10 edges  hot spots around z [1.24, 1.28, 1.33]
+  left_sleeve_f    stretch median   1.7%  95th  18.8%  >15%: 49 edges  hot spots around z [1.25, 1.29, 1.32]
+  left_ftorso      stretch median   0.0%  95th   3.2%  >15%: 8 edges  hot spots around z [1.27, 1.27, 1.31]
+welded: 3579 vertices, 6986 triangles
+fit: hem 104.9 cm above floor (pattern 97.6); cloth to skin median 1.0 cm, 90th 2.1 cm; 0 points inside the body
+Info: Saved as "tee_apose_draped.blend"
+INFO Draco mesh compression is available, use library at /Applications/Blender.app/Contents/Resources/5.1/scripts/addons_core/io_scene_gltf2/libextern_draco.dylib
+19:37:10 | INFO: Starting glTF 2.0 export
+19:37:10 | INFO: Extracting primitive: tee_apose.001
+19:37:10 | WARNING: The active Vertex Color will not be exported, as it is not used in the node tree of the material
+19:37:10 | INFO: Primitives created: 1
+19:37:10 | INFO: Finished glTF 2.0 export in 0.02211904525756836 s
+
+wrote /Users/vaz/Desktop/antigravity_apps/GarmentCode/sion_pipeline/out/tee_apose/tee_apose.glb
+Blender 5.1.2 (hash ec6e62d40fa9 built 2026-05-19 01:30:33)
+
+Blender quit

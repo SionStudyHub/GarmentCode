@@ -1,3 +1,9 @@
+import os
+import matplotlib
+matplotlib.use('Agg')
+if 'MPLCONFIGDIR' not in os.environ:
+    os.environ['MPLCONFIGDIR'] = '/tmp/matplotlib'
+
 from nicegui import ui, Client
 
 # Custom

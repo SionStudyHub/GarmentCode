@@ -1,0 +1,27 @@
+MTL materials: 2  OBJ groups: 20  OBJ verts: 26726  OBJ faces: 51164
+/Users/vaz/Desktop/antigravity_apps/GarmentCode/sion_pipeline/out/layered_tops_test/motion_rca/extract-source-weights.py:146: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  mat.use_nodes = True
+addon_utils.disable: bl_ext.lab_blender_org.mcp not enabled
+FBX version: 7700
+  slot  0 l0_left_collar_back                            -> InnerLightBlue
+  slot  1 l0_left_collar_front                           -> InnerLightBlue
+  slot  2 l0_left_ftorso                                 -> InnerLightBlue
+  slot  3 l0_left_btorso                                 -> InnerLightBlue
+  slot  4 l0_left_sleeve_f                               -> InnerLightBlue
+  slot  5 l0_left_sleeve_b                               -> InnerLightBlue
+  slot  6 l0_right_btorso                                -> InnerLightBlue
+  slot  7 l0_right_sleeve_f                              -> InnerLightBlue
+  slot  8 l0_right_sleeve_b                              -> InnerLightBlue
+  slot  9 l0_right_collar_front                          -> InnerLightBlue
+  slot 10 l0_right_collar_back                           -> InnerLightBlue
+  slot 11 l0_right_ftorso                                -> InnerLightBlue
+  slot 12 l1_left_ftorso                                 -> OuterCharcoal
+  slot 13 l1_left_sleeve_b                               -> OuterCharcoal
+  slot 14 l1_left_sleeve_f                               -> OuterCharcoal
+  slot 15 l1_left_btorso                                 -> OuterCharcoal
+  slot 16 l1_right_btorso                                -> OuterCharcoal
+  slot 17 l1_right_sleeve_b                              -> OuterCharcoal
+  slot 18 l1_right_sleeve_f                              -> OuterCharcoal
+  slot 19 l1_right_ftorso                                -> OuterCharcoal
+WROTE_DIAGNOSTIC sion_pipeline/out/layered_tops_test/motion_rca/source-weights.json
+Blender 5.1.2 (hash ec6e62d40fa9 built 2026-05-19 01:30:33)
